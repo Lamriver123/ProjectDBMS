@@ -15,6 +15,12 @@ namespace ProjectDBMS
         public fDanhSachNV()
         {
             InitializeComponent();
+            DataTable dt = DAO.NhanVienDAO.LayTatCaNhanVien();
+            foreach (DataRow row in dt.Rows)
+            {
+                ucNhanVien uc = new ucNhanVien(row);
+                pnlNhanVien.Controls.Add(uc);
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -31,5 +37,24 @@ namespace ProjectDBMS
         {
 
         }
+
+        private void btnThemNhanVien_Click(object sender, EventArgs e)
+        {
+            fThemNhanVien f = new fThemNhanVien();
+            f.ShowDialog();
+            LoadForm();
+        }
+        //khoi tao lai form
+        public void LoadForm()
+        {
+            pnlNhanVien.Controls.Clear();
+            DataTable dt = DAO.NhanVienDAO.LayTatCaNhanVien();
+            foreach (DataRow row in dt.Rows)
+            {
+                ucNhanVien uc = new ucNhanVien(row);
+                pnlNhanVien.Controls.Add(uc);
+            }
+        }
+
     }
 }

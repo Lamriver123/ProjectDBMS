@@ -42,29 +42,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.ucNhanVien1 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien2 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien3 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien4 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien5 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien6 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien7 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien8 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien9 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien10 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien11 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien12 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien13 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien14 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien15 = new ProjectDBMS.ucNhanVien();
-            this.ucNhanVien16 = new ProjectDBMS.ucNhanVien();
+            this.pnlNhanVien = new System.Windows.Forms.FlowLayoutPanel();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel
@@ -103,6 +86,7 @@
             this.btnThemNhanVien.TabIndex = 9;
             this.btnThemNhanVien.Text = "Thêm nhân viên";
             this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
             // 
             // guna2CustomGradientPanel2
             // 
@@ -120,7 +104,7 @@
             this.guna2CustomGradientPanel2.Controls.Add(this.label6);
             this.guna2CustomGradientPanel2.Controls.Add(this.label5);
             this.guna2CustomGradientPanel2.Controls.Add(this.label3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.flowLayoutPanel1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.pnlNhanVien);
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(45, 141);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1044, 641);
@@ -300,160 +284,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Họ tên nhân viên";
             // 
-            // flowLayoutPanel1
+            // pnlNhanVien
             // 
-            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pnlNhanVien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien1);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien2);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien3);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien4);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien5);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien6);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien7);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien8);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien9);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien10);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien11);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien12);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien13);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien14);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien15);
-            this.flowLayoutPanel1.Controls.Add(this.ucNhanVien16);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(18, 86);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(995, 541);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
-            // ucNhanVien1
-            // 
-            this.ucNhanVien1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien1.Location = new System.Drawing.Point(8, 8);
-            this.ucNhanVien1.Name = "ucNhanVien1";
-            this.ucNhanVien1.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien1.TabIndex = 0;
-            // 
-            // ucNhanVien2
-            // 
-            this.ucNhanVien2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien2.Location = new System.Drawing.Point(8, 54);
-            this.ucNhanVien2.Name = "ucNhanVien2";
-            this.ucNhanVien2.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien2.TabIndex = 1;
-            // 
-            // ucNhanVien3
-            // 
-            this.ucNhanVien3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien3.Location = new System.Drawing.Point(8, 100);
-            this.ucNhanVien3.Name = "ucNhanVien3";
-            this.ucNhanVien3.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien3.TabIndex = 2;
-            // 
-            // ucNhanVien4
-            // 
-            this.ucNhanVien4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien4.Location = new System.Drawing.Point(8, 146);
-            this.ucNhanVien4.Name = "ucNhanVien4";
-            this.ucNhanVien4.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien4.TabIndex = 3;
-            // 
-            // ucNhanVien5
-            // 
-            this.ucNhanVien5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien5.Location = new System.Drawing.Point(8, 192);
-            this.ucNhanVien5.Name = "ucNhanVien5";
-            this.ucNhanVien5.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien5.TabIndex = 4;
-            // 
-            // ucNhanVien6
-            // 
-            this.ucNhanVien6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien6.Location = new System.Drawing.Point(8, 238);
-            this.ucNhanVien6.Name = "ucNhanVien6";
-            this.ucNhanVien6.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien6.TabIndex = 5;
-            // 
-            // ucNhanVien7
-            // 
-            this.ucNhanVien7.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien7.Location = new System.Drawing.Point(8, 284);
-            this.ucNhanVien7.Name = "ucNhanVien7";
-            this.ucNhanVien7.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien7.TabIndex = 6;
-            // 
-            // ucNhanVien8
-            // 
-            this.ucNhanVien8.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien8.Location = new System.Drawing.Point(8, 330);
-            this.ucNhanVien8.Name = "ucNhanVien8";
-            this.ucNhanVien8.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien8.TabIndex = 7;
-            // 
-            // ucNhanVien9
-            // 
-            this.ucNhanVien9.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien9.Location = new System.Drawing.Point(8, 376);
-            this.ucNhanVien9.Name = "ucNhanVien9";
-            this.ucNhanVien9.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien9.TabIndex = 8;
-            // 
-            // ucNhanVien10
-            // 
-            this.ucNhanVien10.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien10.Location = new System.Drawing.Point(8, 422);
-            this.ucNhanVien10.Name = "ucNhanVien10";
-            this.ucNhanVien10.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien10.TabIndex = 9;
-            // 
-            // ucNhanVien11
-            // 
-            this.ucNhanVien11.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien11.Location = new System.Drawing.Point(8, 468);
-            this.ucNhanVien11.Name = "ucNhanVien11";
-            this.ucNhanVien11.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien11.TabIndex = 10;
-            // 
-            // ucNhanVien12
-            // 
-            this.ucNhanVien12.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien12.Location = new System.Drawing.Point(8, 514);
-            this.ucNhanVien12.Name = "ucNhanVien12";
-            this.ucNhanVien12.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien12.TabIndex = 11;
-            // 
-            // ucNhanVien13
-            // 
-            this.ucNhanVien13.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien13.Location = new System.Drawing.Point(8, 560);
-            this.ucNhanVien13.Name = "ucNhanVien13";
-            this.ucNhanVien13.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien13.TabIndex = 12;
-            // 
-            // ucNhanVien14
-            // 
-            this.ucNhanVien14.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien14.Location = new System.Drawing.Point(8, 606);
-            this.ucNhanVien14.Name = "ucNhanVien14";
-            this.ucNhanVien14.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien14.TabIndex = 13;
-            // 
-            // ucNhanVien15
-            // 
-            this.ucNhanVien15.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien15.Location = new System.Drawing.Point(8, 652);
-            this.ucNhanVien15.Name = "ucNhanVien15";
-            this.ucNhanVien15.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien15.TabIndex = 14;
-            // 
-            // ucNhanVien16
-            // 
-            this.ucNhanVien16.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucNhanVien16.Location = new System.Drawing.Point(8, 698);
-            this.ucNhanVien16.Name = "ucNhanVien16";
-            this.ucNhanVien16.Size = new System.Drawing.Size(950, 40);
-            this.ucNhanVien16.TabIndex = 15;
+            this.pnlNhanVien.AutoScroll = true;
+            this.pnlNhanVien.Location = new System.Drawing.Point(18, 86);
+            this.pnlNhanVien.Name = "pnlNhanVien";
+            this.pnlNhanVien.Padding = new System.Windows.Forms.Padding(5);
+            this.pnlNhanVien.Size = new System.Drawing.Size(995, 541);
+            this.pnlNhanVien.TabIndex = 1;
             // 
             // btnTimKiem
             // 
@@ -525,7 +365,6 @@
             this.panel.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -543,23 +382,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private ucNhanVien ucNhanVien1;
-        private ucNhanVien ucNhanVien2;
-        private ucNhanVien ucNhanVien3;
-        private ucNhanVien ucNhanVien4;
-        private ucNhanVien ucNhanVien5;
-        private ucNhanVien ucNhanVien6;
-        private ucNhanVien ucNhanVien7;
-        private ucNhanVien ucNhanVien8;
-        private ucNhanVien ucNhanVien9;
-        private ucNhanVien ucNhanVien10;
-        private ucNhanVien ucNhanVien11;
-        private ucNhanVien ucNhanVien12;
-        private ucNhanVien ucNhanVien13;
-        private ucNhanVien ucNhanVien14;
-        private ucNhanVien ucNhanVien15;
-        private ucNhanVien ucNhanVien16;
+        private System.Windows.Forms.FlowLayoutPanel pnlNhanVien;
         private Guna.UI2.WinForms.Guna2ImageButton btnTimKiem;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;

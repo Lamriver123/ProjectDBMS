@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.lblSTT = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtHoTen = new System.Windows.Forms.Label();
+            this.txtTenPB = new System.Windows.Forms.Label();
+            this.txtSDT = new System.Windows.Forms.Label();
+            this.txtTenCV = new System.Windows.Forms.Label();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnEdit = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -55,45 +55,45 @@
             this.lblSTT.Text = "1";
             this.lblSTT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // txtHoTen
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(105, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nguyenx Văn An";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtHoTen.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHoTen.Location = new System.Drawing.Point(105, 6);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(157, 25);
+            this.txtHoTen.TabIndex = 2;
+            this.txtHoTen.Text = "Nguyenx Văn An";
+            this.txtHoTen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label2
+            // txtTenPB
             // 
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(485, 6);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 25);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Phòng 1";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtTenPB.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenPB.Location = new System.Drawing.Point(450, 6);
+            this.txtTenPB.Name = "txtTenPB";
+            this.txtTenPB.Size = new System.Drawing.Size(151, 25);
+            this.txtTenPB.TabIndex = 3;
+            this.txtTenPB.Text = "Phòng 1";
+            this.txtTenPB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // txtSDT
             // 
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(268, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "0987654321";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtSDT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSDT.Location = new System.Drawing.Point(268, 6);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(157, 25);
+            this.txtSDT.TabIndex = 4;
+            this.txtSDT.Text = "0987654321";
+            this.txtSDT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // txtTenCV
             // 
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(628, 7);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 25);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Trưởng phòng";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtTenCV.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenCV.Location = new System.Drawing.Point(628, 7);
+            this.txtTenCV.Name = "txtTenCV";
+            this.txtTenCV.Size = new System.Drawing.Size(191, 25);
+            this.txtTenCV.TabIndex = 5;
+            this.txtTenCV.Text = "Trưởng phòng";
+            this.txtTenCV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2CircleButton1
             // 
@@ -123,20 +123,22 @@
             this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
             this.guna2ImageButton2.TabIndex = 8;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
-            // guna2ImageButton1
+            // btnEdit
             // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = global::ProjectDBMS.Properties.Resources.icons8_edit_50;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(842, 5);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.TabIndex = 7;
+            this.btnEdit.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnEdit.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnEdit.Image = global::ProjectDBMS.Properties.Resources.icons8_edit_50;
+            this.btnEdit.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnEdit.ImageRotate = 0F;
+            this.btnEdit.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnEdit.Location = new System.Drawing.Point(842, 5);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnEdit.Size = new System.Drawing.Size(30, 30);
+            this.btnEdit.TabIndex = 7;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // ucNhanVien
             // 
@@ -144,12 +146,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.Controls.Add(this.guna2ImageButton2);
-            this.Controls.Add(this.guna2ImageButton1);
+            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.guna2CircleButton1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtTenCV);
+            this.Controls.Add(this.txtSDT);
+            this.Controls.Add(this.txtTenPB);
+            this.Controls.Add(this.txtHoTen);
             this.Controls.Add(this.lblSTT);
             this.Name = "ucNhanVien";
             this.Size = new System.Drawing.Size(950, 40);
@@ -160,13 +162,13 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtHoTen;
         private System.Windows.Forms.Label lblSTT;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label txtSDT;
+        private System.Windows.Forms.Label txtTenPB;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label txtTenCV;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private Guna.UI2.WinForms.Guna2ImageButton btnEdit;
     }
 }
