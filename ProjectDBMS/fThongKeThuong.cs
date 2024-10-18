@@ -16,5 +16,11 @@ namespace ProjectDBMS
         {
             InitializeComponent();
         }
+
+        private void btnThemThuong_Click(object sender, EventArgs e)
+        {
+            Form form = new fThemThuong();
+            form.ShowDialog();
+        }
     }
 }

@@ -63,6 +63,16 @@ namespace ProjectDBMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addbonus {
+            get {
+                object obj = ResourceManager.GetObject("addbonus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap com {
             get {
                 object obj = ResourceManager.GetObject("com", resourceCulture);
@@ -86,6 +96,16 @@ namespace ProjectDBMS.Properties {
         internal static System.Drawing.Bitmap icons8_cane_51 {
             get {
                 object obj = ResourceManager.GetObject("icons8-cane-51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +163,46 @@ namespace ProjectDBMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_minus_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minus-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_more_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-more-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_power_punish_skin_type_5_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-power-punish-skin-type-5-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_request_money_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-request-money-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_reward_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-reward-50", resourceCulture);
@@ -156,6 +216,16 @@ namespace ProjectDBMS.Properties {
         internal static System.Drawing.Bitmap icons8_salary_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-salary-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_save_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-save-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

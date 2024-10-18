@@ -15,3 +15,8 @@ G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeT
 G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fDanhSachNV.resources
 G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fLuongNV.resources
 G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeTru.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fNhanVien.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThemThuong.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThemPhat.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.ucThuongNV.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.ucPhatNV.resources

@@ -10,17 +10,19 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fThongKeTru : Form
+    public partial class ucThuongNV : UserControl
     {
-        public fThongKeTru()
+        
+        public ucThuongNV()
         {
             InitializeComponent();
         }
 
-        private void btnThemPhat_Click(object sender, EventArgs e)
+        private void btnChiTiet_Click(object sender, EventArgs e)
         {
-            Form form = new fThemPhat();
-            form.ShowDialog();
+
         }
+
+        
     }
 }

@@ -64,11 +64,29 @@
     <Compile Include="fLuongNV.Designer.cs">
       <DependentUpon>fLuongNV.cs</DependentUpon>
     </Compile>
+    <Compile Include="fNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhanVien.Designer.cs">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fThemPhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThemPhat.Designer.cs">
+      <DependentUpon>fThemPhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fThemThuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThemThuong.Designer.cs">
+      <DependentUpon>fThemThuong.cs</DependentUpon>
     </Compile>
     <Compile Include="fThongKeThuong.cs">
       <SubType>Form</SubType>
@@ -90,14 +108,35 @@
     <Compile Include="ucNhanVien.Designer.cs">
       <DependentUpon>ucNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucPhatNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPhatNV.Designer.cs">
+      <DependentUpon>ucPhatNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucThuongNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucThuongNV.Designer.cs">
+      <DependentUpon>ucThuongNV.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="fDanhSachNV.resx">
       <DependentUpon>fDanhSachNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLuongNV.resx">
       <DependentUpon>fLuongNV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fNhanVien.resx">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThemPhat.resx">
+      <DependentUpon>fThemPhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThemThuong.resx">
+      <DependentUpon>fThemThuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fThongKeThuong.resx">
       <DependentUpon>fThongKeThuong.cs</DependentUpon>
@@ -117,6 +156,12 @@
     </Compile>
     <EmbeddedResource Include="ucNhanVien.resx">
       <DependentUpon>ucNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPhatNV.resx">
+      <DependentUpon>ucPhatNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucThuongNV.resx">
+      <DependentUpon>ucThuongNV.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -167,6 +212,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addbonus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-save-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-power-punish-skin-type-5-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minus-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-request-money-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-more-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

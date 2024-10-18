@@ -85,5 +85,10 @@ namespace ProjectDBMS
         {
             this.Close();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            btnDanhSachNV_Click(sender, e);
+        }
     }
 }

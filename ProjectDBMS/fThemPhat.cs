@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fThongKeTru : Form
+    public partial class fThemPhat : Form
     {
-        public fThongKeTru()
+        public fThemPhat()
         {
             InitializeComponent();
         }
 
-        private void btnThemPhat_Click(object sender, EventArgs e)
+        private void btnDong_Click(object sender, EventArgs e)
         {
-            Form form = new fThemPhat();
-            form.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ProjectDBMS
 {
-    partial class ucNhanVien
+    partial class ucThuongNV
     {
         /// <summary> 
         /// Required designer variable.
@@ -36,6 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnChiTiet = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
@@ -68,7 +70,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(485, 6);
+            this.label2.Location = new System.Drawing.Point(264, 8);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 25);
             this.label2.TabIndex = 3;
@@ -78,17 +80,17 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(268, 6);
+            this.label3.Location = new System.Drawing.Point(506, 8);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 25);
             this.label3.TabIndex = 4;
-            this.label3.Text = "0987654321";
+            this.label3.Text = "100000 VND";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(628, 7);
+            this.label4.Location = new System.Drawing.Point(355, 8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 25);
             this.label4.TabIndex = 5;
@@ -110,15 +112,40 @@
             this.guna2CircleButton1.TabIndex = 6;
             this.guna2CircleButton1.Text = "N";
             // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(665, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(157, 25);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "18/10/2024";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnChiTiet
+            // 
+            this.btnChiTiet.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnChiTiet.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnChiTiet.Image = global::ProjectDBMS.Properties.Resources.icons8_more_50;
+            this.btnChiTiet.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnChiTiet.ImageRotate = 0F;
+            this.btnChiTiet.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnChiTiet.Location = new System.Drawing.Point(927, 5);
+            this.btnChiTiet.Name = "btnChiTiet";
+            this.btnChiTiet.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnChiTiet.Size = new System.Drawing.Size(30, 30);
+            this.btnChiTiet.TabIndex = 10;
+            this.btnChiTiet.Click += new System.EventHandler(this.btnChiTiet_Click);
+            // 
             // guna2ImageButton2
             // 
             this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton2.Image = global::ProjectDBMS.Properties.Resources.icons8_delete_50;
             this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton2.ImageRotate = 0F;
             this.guna2ImageButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.Location = new System.Drawing.Point(887, 4);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(887, 5);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
             this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
@@ -132,17 +159,19 @@
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(842, 5);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(849, 5);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
             this.guna2ImageButton1.TabIndex = 7;
             // 
-            // ucNhanVien
+            // ucThuongNV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.Controls.Add(this.btnChiTiet);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.guna2ImageButton2);
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.guna2CircleButton1);
@@ -151,8 +180,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSTT);
-            this.Name = "ucNhanVien";
-            this.Size = new System.Drawing.Size(950, 40);
+            this.Name = "ucThuongNV";
+            this.Size = new System.Drawing.Size(970, 40);
             this.ResumeLayout(false);
 
         }
@@ -168,5 +197,7 @@
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2ImageButton btnChiTiet;
     }
 }

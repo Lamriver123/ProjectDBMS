@@ -21,5 +21,15 @@ namespace ProjectDBMS
         {
             this.Close();
         }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
