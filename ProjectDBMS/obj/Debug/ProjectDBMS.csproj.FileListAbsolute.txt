@@ -1,0 +1,17 @@
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\bin\Debug\ProjectDBMS.exe.config
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\bin\Debug\ProjectDBMS.exe
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\bin\Debug\ProjectDBMS.pdb
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\bin\Debug\Guna.UI2.dll
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.AssemblyReference.cache
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.Form1.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.Properties.Resources.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.GenerateResource.cache
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.CoreCompileInputs.cache
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.CopyComplete
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.exe
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.pdb
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.ucNhanVien.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeThuong.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fDanhSachNV.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fLuongNV.resources
+G:\HK1_Nam3\DBMS\Project\ProjectDBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeTru.resources
