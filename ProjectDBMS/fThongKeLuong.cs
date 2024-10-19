@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fThemThuong : Form
+    public partial class fThongKeLuong : Form
     {
-        public fThemThuong()
+        public fThongKeLuong()
         {
             InitializeComponent();
-        }
-        private void btnDong_Click_1(object sender, EventArgs e)
-        {
-
-            this.Close();
         }
     }
 }

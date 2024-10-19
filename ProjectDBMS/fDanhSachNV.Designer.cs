@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.btnThemNhanVien = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,11 +42,27 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pnlNhanVien = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnThemNhanVien = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.ucNhanVien1 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien2 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien3 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien4 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien5 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien6 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien7 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien8 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien9 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien10 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien11 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien12 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien13 = new ProjectDBMS.ucNhanVien();
+            this.ucNhanVien14 = new ProjectDBMS.ucNhanVien();
             this.panel.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
+            this.pnlNhanVien.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel
@@ -63,30 +78,6 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(1124, 792);
             this.panel.TabIndex = 2;
-            // 
-            // btnThemNhanVien
-            // 
-            this.btnThemNhanVien.BorderRadius = 10;
-            this.btnThemNhanVien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnThemNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnThemNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnThemNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThemNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btnThemNhanVien.Image = global::ProjectDBMS.Properties.Resources.icons8_add_50;
-            this.btnThemNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThemNhanVien.Location = new System.Drawing.Point(912, 61);
-            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(0);
-            this.btnThemNhanVien.Name = "btnThemNhanVien";
-            this.btnThemNhanVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnThemNhanVien.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.Size = new System.Drawing.Size(164, 45);
-            this.btnThemNhanVien.TabIndex = 9;
-            this.btnThemNhanVien.Text = "Thêm nhân viên";
-            this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
             // 
             // guna2CustomGradientPanel2
             // 
@@ -289,28 +280,25 @@
             this.pnlNhanVien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlNhanVien.AutoScroll = true;
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien1);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien2);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien3);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien4);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien5);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien6);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien7);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien8);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien9);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien10);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien11);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien12);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien13);
+            this.pnlNhanVien.Controls.Add(this.ucNhanVien14);
             this.pnlNhanVien.Location = new System.Drawing.Point(18, 86);
             this.pnlNhanVien.Name = "pnlNhanVien";
             this.pnlNhanVien.Padding = new System.Windows.Forms.Padding(5);
             this.pnlNhanVien.Size = new System.Drawing.Size(995, 541);
             this.pnlNhanVien.TabIndex = 1;
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
-            this.btnTimKiem.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnTimKiem.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Image = global::ProjectDBMS.Properties.Resources.icons8_search_50;
-            this.btnTimKiem.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnTimKiem.ImageRotate = 0F;
-            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.IndicateFocus = true;
-            this.btnTimKiem.Location = new System.Drawing.Point(323, 63);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Size = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.TabIndex = 4;
-            this.btnTimKiem.UseTransparentBackground = true;
             // 
             // guna2CircleButton1
             // 
@@ -353,6 +341,159 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(271, 36);
             this.guna2TextBox1.TabIndex = 0;
             // 
+            // btnThemNhanVien
+            // 
+            this.btnThemNhanVien.BorderRadius = 10;
+            this.btnThemNhanVien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThemNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThemNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
+            this.btnThemNhanVien.Image = global::ProjectDBMS.Properties.Resources.icons8_add_50;
+            this.btnThemNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Location = new System.Drawing.Point(912, 61);
+            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(0);
+            this.btnThemNhanVien.Name = "btnThemNhanVien";
+            this.btnThemNhanVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnThemNhanVien.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.Size = new System.Drawing.Size(164, 45);
+            this.btnThemNhanVien.TabIndex = 9;
+            this.btnThemNhanVien.Text = "Thêm nhân viên";
+            this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
+            // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiem.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnTimKiem.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Image = global::ProjectDBMS.Properties.Resources.icons8_search_50;
+            this.btnTimKiem.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnTimKiem.ImageRotate = 0F;
+            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.IndicateFocus = true;
+            this.btnTimKiem.Location = new System.Drawing.Point(323, 63);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Size = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.TabIndex = 4;
+            this.btnTimKiem.UseTransparentBackground = true;
+            // 
+            // ucNhanVien1
+            // 
+            this.ucNhanVien1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien1.Location = new System.Drawing.Point(8, 8);
+            this.ucNhanVien1.Name = "ucNhanVien1";
+            this.ucNhanVien1.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien1.TabIndex = 0;
+            // 
+            // ucNhanVien2
+            // 
+            this.ucNhanVien2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien2.Location = new System.Drawing.Point(8, 54);
+            this.ucNhanVien2.Name = "ucNhanVien2";
+            this.ucNhanVien2.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien2.TabIndex = 1;
+            // 
+            // ucNhanVien3
+            // 
+            this.ucNhanVien3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien3.Location = new System.Drawing.Point(8, 100);
+            this.ucNhanVien3.Name = "ucNhanVien3";
+            this.ucNhanVien3.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien3.TabIndex = 2;
+            // 
+            // ucNhanVien4
+            // 
+            this.ucNhanVien4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien4.Location = new System.Drawing.Point(8, 146);
+            this.ucNhanVien4.Name = "ucNhanVien4";
+            this.ucNhanVien4.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien4.TabIndex = 3;
+            // 
+            // ucNhanVien5
+            // 
+            this.ucNhanVien5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien5.Location = new System.Drawing.Point(8, 192);
+            this.ucNhanVien5.Name = "ucNhanVien5";
+            this.ucNhanVien5.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien5.TabIndex = 4;
+            // 
+            // ucNhanVien6
+            // 
+            this.ucNhanVien6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien6.Location = new System.Drawing.Point(8, 238);
+            this.ucNhanVien6.Name = "ucNhanVien6";
+            this.ucNhanVien6.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien6.TabIndex = 5;
+            // 
+            // ucNhanVien7
+            // 
+            this.ucNhanVien7.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien7.Location = new System.Drawing.Point(8, 284);
+            this.ucNhanVien7.Name = "ucNhanVien7";
+            this.ucNhanVien7.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien7.TabIndex = 6;
+            // 
+            // ucNhanVien8
+            // 
+            this.ucNhanVien8.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien8.Location = new System.Drawing.Point(8, 330);
+            this.ucNhanVien8.Name = "ucNhanVien8";
+            this.ucNhanVien8.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien8.TabIndex = 7;
+            // 
+            // ucNhanVien9
+            // 
+            this.ucNhanVien9.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien9.Location = new System.Drawing.Point(8, 376);
+            this.ucNhanVien9.Name = "ucNhanVien9";
+            this.ucNhanVien9.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien9.TabIndex = 8;
+            // 
+            // ucNhanVien10
+            // 
+            this.ucNhanVien10.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien10.Location = new System.Drawing.Point(8, 422);
+            this.ucNhanVien10.Name = "ucNhanVien10";
+            this.ucNhanVien10.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien10.TabIndex = 9;
+            // 
+            // ucNhanVien11
+            // 
+            this.ucNhanVien11.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien11.Location = new System.Drawing.Point(8, 468);
+            this.ucNhanVien11.Name = "ucNhanVien11";
+            this.ucNhanVien11.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien11.TabIndex = 10;
+            // 
+            // ucNhanVien12
+            // 
+            this.ucNhanVien12.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien12.Location = new System.Drawing.Point(8, 514);
+            this.ucNhanVien12.Name = "ucNhanVien12";
+            this.ucNhanVien12.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien12.TabIndex = 11;
+            // 
+            // ucNhanVien13
+            // 
+            this.ucNhanVien13.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien13.Location = new System.Drawing.Point(8, 560);
+            this.ucNhanVien13.Name = "ucNhanVien13";
+            this.ucNhanVien13.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien13.TabIndex = 12;
+            // 
+            // ucNhanVien14
+            // 
+            this.ucNhanVien14.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ucNhanVien14.Location = new System.Drawing.Point(8, 606);
+            this.ucNhanVien14.Name = "ucNhanVien14";
+            this.ucNhanVien14.Size = new System.Drawing.Size(950, 40);
+            this.ucNhanVien14.TabIndex = 13;
+            // 
             // fDanhSachNV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -365,6 +506,7 @@
             this.panel.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
+            this.pnlNhanVien.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -389,5 +531,19 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        private ucNhanVien ucNhanVien1;
+        private ucNhanVien ucNhanVien2;
+        private ucNhanVien ucNhanVien3;
+        private ucNhanVien ucNhanVien4;
+        private ucNhanVien ucNhanVien5;
+        private ucNhanVien ucNhanVien6;
+        private ucNhanVien ucNhanVien7;
+        private ucNhanVien ucNhanVien8;
+        private ucNhanVien ucNhanVien9;
+        private ucNhanVien ucNhanVien10;
+        private ucNhanVien ucNhanVien11;
+        private ucNhanVien ucNhanVien12;
+        private ucNhanVien ucNhanVien13;
+        private ucNhanVien ucNhanVien14;
     }
 }

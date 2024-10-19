@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class Form1 : Form
+    public partial class fQuanLy : Form
     {
         private Form activeForm = null;
-        public Form1()
+        public fQuanLy()
         {
             InitializeComponent();
         }

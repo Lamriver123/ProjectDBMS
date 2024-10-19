@@ -41,6 +41,7 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +63,24 @@
     <Compile Include="fCapNhatNhanVien.Designer.cs">
       <DependentUpon>fCapNhatNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="fChiTietLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChiTietLuong.Designer.cs">
+      <DependentUpon>fChiTietLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDangNhap.Designer.cs">
+      <DependentUpon>fDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDanhSachLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDanhSachLuong.Designer.cs">
+      <DependentUpon>fDanhSachLuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="fDanhSachNV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,11 +99,11 @@
     <Compile Include="fNhanVien.Designer.cs">
       <DependentUpon>fNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="fQuanLy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="fQuanLy.Designer.cs">
+      <DependentUpon>fQuanLy.cs</DependentUpon>
     </Compile>
     <Compile Include="fThemNhanVien.cs">
       <SubType>Form</SubType>
@@ -104,6 +123,12 @@
     <Compile Include="fThemThuong.Designer.cs">
       <DependentUpon>fThemThuong.cs</DependentUpon>
     </Compile>
+    <Compile Include="fThongKeLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThongKeLuong.Designer.cs">
+      <DependentUpon>fThongKeLuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="fThongKeThuong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +144,12 @@
     <Compile Include="Model\NhanVien.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucLuongNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLuongNV.Designer.cs">
+      <DependentUpon>ucLuongNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucNhanVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -140,6 +171,15 @@
     <EmbeddedResource Include="fCapNhatNhanVien.resx">
       <DependentUpon>fCapNhatNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fChiTietLuong.resx">
+      <DependentUpon>fChiTietLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDangNhap.resx">
+      <DependentUpon>fDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDanhSachLuong.resx">
+      <DependentUpon>fDanhSachLuong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fDanhSachNV.resx">
       <DependentUpon>fDanhSachNV.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,8 +189,8 @@
     <EmbeddedResource Include="fNhanVien.resx">
       <DependentUpon>fNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="fQuanLy.resx">
+      <DependentUpon>fQuanLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fThemNhanVien.resx">
       <DependentUpon>fThemNhanVien.cs</DependentUpon>
@@ -160,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fThemThuong.resx">
       <DependentUpon>fThemThuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThongKeLuong.resx">
+      <DependentUpon>fThongKeLuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fThongKeThuong.resx">
       <DependentUpon>fThongKeThuong.cs</DependentUpon>
@@ -177,6 +220,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ucLuongNV.resx">
+      <DependentUpon>ucLuongNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucNhanVien.resx">
       <DependentUpon>ucNhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,6 +302,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-more-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-avatar-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-i-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

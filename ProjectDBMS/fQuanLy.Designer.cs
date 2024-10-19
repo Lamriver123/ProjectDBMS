@@ -1,6 +1,6 @@
 ﻿namespace ProjectDBMS
 {
-    partial class Form1
+    partial class fQuanLy
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fQuanLy));
             this.pToolBox = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pButton = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -86,7 +86,6 @@
             this.pButton.BackColor = System.Drawing.Color.Transparent;
             this.pButton.BorderColor = System.Drawing.Color.Blue;
             this.pButton.BorderRadius = 50;
-            this.pButton.BorderThickness = 1;
             this.pButton.Controls.Add(this.btnDangXuat);
             this.pButton.Controls.Add(this.btnLuongNV);
             this.pButton.Controls.Add(this.guna2Panel4);
@@ -290,7 +289,7 @@
             this.btnDanhSachTru.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnDanhSachTru.Size = new System.Drawing.Size(164, 45);
             this.btnDanhSachTru.TabIndex = 5;
-            this.btnDanhSachTru.Text = "Thống kê thấu trừ";
+            this.btnDanhSachTru.Text = "Danh sách thấu trừ";
             this.btnDanhSachTru.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDanhSachTru.Click += new System.EventHandler(this.btnDanhSachTru_Click);
             // 
@@ -315,7 +314,7 @@
             this.btnDanhSachThuong.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnDanhSachThuong.Size = new System.Drawing.Size(164, 45);
             this.btnDanhSachThuong.TabIndex = 3;
-            this.btnDanhSachThuong.Text = "Thống kê thưởng";
+            this.btnDanhSachThuong.Text = "Danh sách thưởng";
             this.btnDanhSachThuong.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDanhSachThuong.Click += new System.EventHandler(this.btnDanhSachThuong_Click);
             // 
@@ -340,7 +339,7 @@
             this.btnDanhSachNV.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnDanhSachNV.Size = new System.Drawing.Size(164, 45);
             this.btnDanhSachNV.TabIndex = 1;
-            this.btnDanhSachNV.Text = "Danh sách";
+            this.btnDanhSachNV.Text = "Nhân viên công ty";
             this.btnDanhSachNV.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDanhSachNV.Click += new System.EventHandler(this.btnDanhSachNV_Click);
             // 

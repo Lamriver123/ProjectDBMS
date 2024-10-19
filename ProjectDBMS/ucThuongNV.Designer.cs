@@ -37,9 +37,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnChiTiet = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnChiTiet = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -122,58 +122,57 @@
             this.label5.Text = "18/10/2024";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnChiTiet
-            // 
-            this.btnChiTiet.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnChiTiet.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnChiTiet.Image = global::ProjectDBMS.Properties.Resources.icons8_more_50;
-            this.btnChiTiet.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnChiTiet.ImageRotate = 0F;
-            this.btnChiTiet.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnChiTiet.Location = new System.Drawing.Point(927, 5);
-            this.btnChiTiet.Name = "btnChiTiet";
-            this.btnChiTiet.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnChiTiet.Size = new System.Drawing.Size(30, 30);
-            this.btnChiTiet.TabIndex = 10;
-            this.btnChiTiet.Click += new System.EventHandler(this.btnChiTiet_Click);
-            // 
             // guna2ImageButton2
             // 
             this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.Image = global::ProjectDBMS.Properties.Resources.icons8_delete_50;
+            this.guna2ImageButton2.Image = global::ProjectDBMS.Properties.Resources.icons8_i_64;
             this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton2.ImageRotate = 0F;
             this.guna2ImageButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.Location = new System.Drawing.Point(887, 5);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(917, 4);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.TabIndex = 8;
+            this.guna2ImageButton2.TabIndex = 19;
             // 
             // guna2ImageButton1
             // 
             this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = global::ProjectDBMS.Properties.Resources.icons8_edit_50;
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.Image = global::ProjectDBMS.Properties.Resources.icons8_delete_50;
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(849, 5);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(881, 4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.TabIndex = 7;
+            this.guna2ImageButton1.TabIndex = 18;
+            // 
+            // btnChiTiet
+            // 
+            this.btnChiTiet.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnChiTiet.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnChiTiet.Image = global::ProjectDBMS.Properties.Resources.icons8_edit_50;
+            this.btnChiTiet.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnChiTiet.ImageRotate = 0F;
+            this.btnChiTiet.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnChiTiet.Location = new System.Drawing.Point(841, 3);
+            this.btnChiTiet.Name = "btnChiTiet";
+            this.btnChiTiet.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnChiTiet.Size = new System.Drawing.Size(30, 30);
+            this.btnChiTiet.TabIndex = 17;
             // 
             // ucThuongNV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.Controls.Add(this.btnChiTiet);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.guna2ImageButton2);
             this.Controls.Add(this.guna2ImageButton1);
+            this.Controls.Add(this.btnChiTiet);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -195,9 +194,9 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2ImageButton btnChiTiet;
     }
 }

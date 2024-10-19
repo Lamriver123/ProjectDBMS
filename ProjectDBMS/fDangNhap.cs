@@ -10,16 +10,25 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fThemThuong : Form
+    public partial class fDangNhap : Form
     {
-        public fThemThuong()
+        public fDangNhap()
         {
             InitializeComponent();
         }
-        private void btnDong_Click_1(object sender, EventArgs e)
-        {
 
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form form = new fQuanLy();
+            form.ShowDialog();
+            this.Show();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
             this.Close();
+           
         }
     }
 }

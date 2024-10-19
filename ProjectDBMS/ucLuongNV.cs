@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fThemThuong : Form
+    public partial class ucLuongNV : UserControl
     {
-        public fThemThuong()
+        public ucLuongNV()
         {
             InitializeComponent();
         }
-        private void btnDong_Click_1(object sender, EventArgs e)
-        {
 
-            this.Close();
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            Form form = new fChiTietLuong();
+            form.ShowDialog();
         }
+
     }
 }
