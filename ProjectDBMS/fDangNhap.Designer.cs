@@ -109,7 +109,6 @@
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2PictureBox1.ErrorImage = global::ProjectDBMS.Properties.Resources.bgLogin;
             this.guna2PictureBox1.Image = global::ProjectDBMS.Properties.Resources.bgLogin;
-            this.guna2PictureBox1.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Horizontal;
             this.guna2PictureBox1.ImageLocation = "";
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
