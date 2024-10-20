@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\projectdbms\\fthongkethuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthongkethuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fthemphat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthemphat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fthongkethuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthongkethuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fthemphat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthemphat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fthongketru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthongketru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fthongketru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthongketru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "fThongKeThuong.cs",
-              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeThuong.cs",
-              "RelativeDocumentMoniker": "ProjectDBMS\\fThongKeThuong.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeThuong.cs",
-              "RelativeToolTip": "ProjectDBMS\\fThongKeThuong.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawCAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "fThemPhat.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThemPhat.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fThemPhat.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThemPhat.cs",
+              "RelativeToolTip": "ProjectDBMS\\fThemPhat.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAawDIAAACOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T05:06:27.185Z",
+              "WhenOpened": "2024-10-20T06:13:10.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fThongKeThuong.cs [Design]",
-              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeThuong.cs",
-              "RelativeDocumentMoniker": "ProjectDBMS\\fThongKeThuong.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeThuong.cs [Design]",
-              "RelativeToolTip": "ProjectDBMS\\fThongKeThuong.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "fThemPhat.cs [Design]",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThemPhat.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fThemPhat.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThemPhat.cs [Design]",
+              "RelativeToolTip": "ProjectDBMS\\fThemPhat.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T05:06:21.12Z",
+              "WhenOpened": "2024-10-20T06:12:15.129Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fThongKeTru.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeTru.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fThongKeTru.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeTru.cs",
+              "RelativeToolTip": "ProjectDBMS\\fThongKeTru.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:01:03.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fThongKeTru.cs [Design]",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeTru.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fThongKeTru.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThongKeTru.cs [Design]",
+              "RelativeToolTip": "ProjectDBMS\\fThongKeTru.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:00:27.565Z",
               "EditorCaption": " [Design]"
             }
           ]

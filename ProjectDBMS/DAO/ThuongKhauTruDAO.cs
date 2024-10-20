@@ -23,6 +23,19 @@ namespace ProjectDBMS.DAO
                 return dt;
             }
         }
+        public static DataTable LayTatCaKhauTru()
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From V_XemKhauTru", connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
         //insert thuongKhauTru
         public static bool ThemThuongKhauTru(Model.ThuongKhauTru thuongKhauTru)
         {

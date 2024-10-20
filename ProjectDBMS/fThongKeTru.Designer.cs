@@ -42,27 +42,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pnlDSPhat = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnThemPhat = new Guna.UI2.WinForms.Guna2Button();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.ucPhatNV1 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV2 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV3 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV4 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV5 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV6 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV7 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV8 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV9 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV10 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV11 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV12 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV13 = new ProjectDBMS.ucPhatNV();
-            this.ucPhatNV14 = new ProjectDBMS.ucPhatNV();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -91,7 +76,7 @@
             this.guna2CustomGradientPanel2.Controls.Add(this.label6);
             this.guna2CustomGradientPanel2.Controls.Add(this.label5);
             this.guna2CustomGradientPanel2.Controls.Add(this.label3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.flowLayoutPanel1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.pnlDSPhat);
             this.guna2CustomGradientPanel2.CustomBorderColor = System.Drawing.Color.LightGray;
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(24, 145);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
@@ -281,6 +266,18 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Họ tên nhân viên";
             // 
+            // pnlDSPhat
+            // 
+            this.pnlDSPhat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlDSPhat.AutoScroll = true;
+            this.pnlDSPhat.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlDSPhat.Location = new System.Drawing.Point(18, 86);
+            this.pnlDSPhat.Name = "pnlDSPhat";
+            this.pnlDSPhat.Padding = new System.Windows.Forms.Padding(5);
+            this.pnlDSPhat.Size = new System.Drawing.Size(995, 541);
+            this.pnlDSPhat.TabIndex = 1;
+            // 
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
@@ -364,144 +361,6 @@
             this.btnTimKiem.TabIndex = 19;
             this.btnTimKiem.UseTransparentBackground = true;
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV1);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV2);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV3);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV4);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV5);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV6);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV7);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV8);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV9);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV10);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV11);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV12);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV13);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhatNV14);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(18, 86);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(995, 541);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
-            // ucPhatNV1
-            // 
-            this.ucPhatNV1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV1.Location = new System.Drawing.Point(8, 8);
-            this.ucPhatNV1.Name = "ucPhatNV1";
-            this.ucPhatNV1.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV1.TabIndex = 0;
-            // 
-            // ucPhatNV2
-            // 
-            this.ucPhatNV2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV2.Location = new System.Drawing.Point(8, 54);
-            this.ucPhatNV2.Name = "ucPhatNV2";
-            this.ucPhatNV2.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV2.TabIndex = 1;
-            // 
-            // ucPhatNV3
-            // 
-            this.ucPhatNV3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV3.Location = new System.Drawing.Point(8, 100);
-            this.ucPhatNV3.Name = "ucPhatNV3";
-            this.ucPhatNV3.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV3.TabIndex = 2;
-            // 
-            // ucPhatNV4
-            // 
-            this.ucPhatNV4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV4.Location = new System.Drawing.Point(8, 146);
-            this.ucPhatNV4.Name = "ucPhatNV4";
-            this.ucPhatNV4.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV4.TabIndex = 3;
-            // 
-            // ucPhatNV5
-            // 
-            this.ucPhatNV5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV5.Location = new System.Drawing.Point(8, 192);
-            this.ucPhatNV5.Name = "ucPhatNV5";
-            this.ucPhatNV5.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV5.TabIndex = 4;
-            // 
-            // ucPhatNV6
-            // 
-            this.ucPhatNV6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV6.Location = new System.Drawing.Point(8, 238);
-            this.ucPhatNV6.Name = "ucPhatNV6";
-            this.ucPhatNV6.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV6.TabIndex = 5;
-            // 
-            // ucPhatNV7
-            // 
-            this.ucPhatNV7.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV7.Location = new System.Drawing.Point(8, 284);
-            this.ucPhatNV7.Name = "ucPhatNV7";
-            this.ucPhatNV7.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV7.TabIndex = 6;
-            // 
-            // ucPhatNV8
-            // 
-            this.ucPhatNV8.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV8.Location = new System.Drawing.Point(8, 330);
-            this.ucPhatNV8.Name = "ucPhatNV8";
-            this.ucPhatNV8.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV8.TabIndex = 7;
-            // 
-            // ucPhatNV9
-            // 
-            this.ucPhatNV9.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV9.Location = new System.Drawing.Point(8, 376);
-            this.ucPhatNV9.Name = "ucPhatNV9";
-            this.ucPhatNV9.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV9.TabIndex = 8;
-            // 
-            // ucPhatNV10
-            // 
-            this.ucPhatNV10.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV10.Location = new System.Drawing.Point(8, 422);
-            this.ucPhatNV10.Name = "ucPhatNV10";
-            this.ucPhatNV10.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV10.TabIndex = 9;
-            // 
-            // ucPhatNV11
-            // 
-            this.ucPhatNV11.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV11.Location = new System.Drawing.Point(8, 468);
-            this.ucPhatNV11.Name = "ucPhatNV11";
-            this.ucPhatNV11.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV11.TabIndex = 10;
-            // 
-            // ucPhatNV12
-            // 
-            this.ucPhatNV12.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV12.Location = new System.Drawing.Point(8, 514);
-            this.ucPhatNV12.Name = "ucPhatNV12";
-            this.ucPhatNV12.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV12.TabIndex = 11;
-            // 
-            // ucPhatNV13
-            // 
-            this.ucPhatNV13.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV13.Location = new System.Drawing.Point(8, 560);
-            this.ucPhatNV13.Name = "ucPhatNV13";
-            this.ucPhatNV13.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV13.TabIndex = 12;
-            // 
-            // ucPhatNV14
-            // 
-            this.ucPhatNV14.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucPhatNV14.Location = new System.Drawing.Point(8, 606);
-            this.ucPhatNV14.Name = "ucPhatNV14";
-            this.ucPhatNV14.Size = new System.Drawing.Size(970, 40);
-            this.ucPhatNV14.TabIndex = 13;
-            // 
             // fThongKeTru
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -519,7 +378,6 @@
             this.Text = "fThongKeTru";
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -545,20 +403,6 @@
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private ucPhatNV ucPhatNV1;
-        private ucPhatNV ucPhatNV2;
-        private ucPhatNV ucPhatNV3;
-        private ucPhatNV ucPhatNV4;
-        private ucPhatNV ucPhatNV5;
-        private ucPhatNV ucPhatNV6;
-        private ucPhatNV ucPhatNV7;
-        private ucPhatNV ucPhatNV8;
-        private ucPhatNV ucPhatNV9;
-        private ucPhatNV ucPhatNV10;
-        private ucPhatNV ucPhatNV11;
-        private ucPhatNV ucPhatNV12;
-        private ucPhatNV ucPhatNV13;
-        private ucPhatNV ucPhatNV14;
+        private System.Windows.Forms.FlowLayoutPanel pnlDSPhat;
     }
 }

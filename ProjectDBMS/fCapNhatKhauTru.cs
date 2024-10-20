@@ -6,18 +6,15 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fCapNhatThuong : Form
+    public partial class fCapNhatKhauTru : Form
     {
-        public fCapNhatThuong()
-        {
-            InitializeComponent();
-        }
-        public fCapNhatThuong(DataRow dr)
+        public fCapNhatKhauTru(DataRow dr)
         {
             InitializeComponent();
             MaTKT = int.Parse(dr["MaTKT"].ToString());
@@ -30,7 +27,7 @@ namespace ProjectDBMS
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            ThuongKhauTru thuongKhauTru = new ThuongKhauTru(MaTKT, int.Parse(txtMaNV.Text), (int)double.Parse(txtSoTien.Text), txtLyDo.Text, "Thưởng", DateTime.Now.Date);
+            ThuongKhauTru thuongKhauTru = new ThuongKhauTru(MaTKT, int.Parse(txtMaNV.Text), (int)double.Parse(txtSoTien.Text), txtLyDo.Text, "Khấu trừ", DateTime.Now.Date);
             if (DAO.ThuongKhauTruDAO.SuaThuongKhauTru(thuongKhauTru))
             {
                 MessageBox.Show("Cập nhật thành công");

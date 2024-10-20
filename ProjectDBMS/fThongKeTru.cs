@@ -15,6 +15,12 @@ namespace ProjectDBMS
         public fThongKeTru()
         {
             InitializeComponent();
+            DataTable dataTable = DAO.ThuongKhauTruDAO.LayTatCaKhauTru();
+            foreach (DataRow dr in dataTable.Rows)
+            {
+                ucPhatNV uc = new ucPhatNV(dr);
+                pnlDSPhat.Controls.Add(uc);
+            }
         }
 
         private void btnThemPhat_Click(object sender, EventArgs e)
