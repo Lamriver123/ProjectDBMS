@@ -28,6 +28,18 @@ namespace ProjectDBMS
         {
             Form form = new fThemThuong();
             form.ShowDialog();
+            Load();
+        }
+
+        private void Load()
+        {
+            pnlDSThuong.Controls.Clear();
+            DataTable dt = ThuongKhauTruDAO.LayTatCaThuong();
+            foreach (DataRow dr in dt.Rows)
+            {
+                ucThuongNV uc = new ucThuongNV(dr);
+                pnlDSThuong.Controls.Add(uc);
+            }
         }
     }
 }
