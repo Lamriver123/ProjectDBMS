@@ -78,3 +78,4 @@ F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectD
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fQuanLy.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeLuong.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.ucLuongNV.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fCapNhatThuong.resources

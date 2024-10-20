@@ -41,34 +41,12 @@
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnThemThuong = new Guna.UI2.WinForms.Guna2Button();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.ucThuongNV1 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV2 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV3 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV4 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV5 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV6 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV7 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV8 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV9 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV10 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV11 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV12 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV13 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV14 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV15 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV16 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV17 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV18 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV19 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV20 = new ProjectDBMS.ucThuongNV();
-            this.ucThuongNV21 = new ProjectDBMS.ucThuongNV();
+            this.pnlDSThuong = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel2
@@ -88,7 +66,7 @@
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2ComboBox2);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2ComboBox1);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2Button1);
-            this.guna2CustomGradientPanel2.Controls.Add(this.flowLayoutPanel1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.pnlDSThuong);
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(24, 145);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1044, 641);
@@ -277,39 +255,6 @@
             this.guna2Button1.TabIndex = 7;
             this.guna2Button1.Text = "Tất cả nhân viên";
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV1);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV2);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV3);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV4);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV5);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV6);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV7);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV8);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV9);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV10);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV11);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV12);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV13);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV14);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV15);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV16);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV17);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV18);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV19);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV20);
-            this.flowLayoutPanel1.Controls.Add(this.ucThuongNV21);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(18, 86);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(995, 541);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
@@ -393,173 +338,17 @@
             this.btnTimKiem.TabIndex = 13;
             this.btnTimKiem.UseTransparentBackground = true;
             // 
-            // ucThuongNV1
+            // pnlDSThuong
             // 
-            this.ucThuongNV1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV1.Location = new System.Drawing.Point(8, 8);
-            this.ucThuongNV1.Name = "ucThuongNV1";
-            this.ucThuongNV1.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV1.TabIndex = 0;
-            // 
-            // ucThuongNV2
-            // 
-            this.ucThuongNV2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV2.Location = new System.Drawing.Point(8, 54);
-            this.ucThuongNV2.Name = "ucThuongNV2";
-            this.ucThuongNV2.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV2.TabIndex = 1;
-            // 
-            // ucThuongNV3
-            // 
-            this.ucThuongNV3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV3.Location = new System.Drawing.Point(8, 100);
-            this.ucThuongNV3.Name = "ucThuongNV3";
-            this.ucThuongNV3.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV3.TabIndex = 2;
-            // 
-            // ucThuongNV4
-            // 
-            this.ucThuongNV4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV4.Location = new System.Drawing.Point(8, 146);
-            this.ucThuongNV4.Name = "ucThuongNV4";
-            this.ucThuongNV4.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV4.TabIndex = 3;
-            // 
-            // ucThuongNV5
-            // 
-            this.ucThuongNV5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV5.Location = new System.Drawing.Point(8, 192);
-            this.ucThuongNV5.Name = "ucThuongNV5";
-            this.ucThuongNV5.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV5.TabIndex = 4;
-            // 
-            // ucThuongNV6
-            // 
-            this.ucThuongNV6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV6.Location = new System.Drawing.Point(8, 238);
-            this.ucThuongNV6.Name = "ucThuongNV6";
-            this.ucThuongNV6.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV6.TabIndex = 5;
-            // 
-            // ucThuongNV7
-            // 
-            this.ucThuongNV7.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV7.Location = new System.Drawing.Point(8, 284);
-            this.ucThuongNV7.Name = "ucThuongNV7";
-            this.ucThuongNV7.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV7.TabIndex = 6;
-            // 
-            // ucThuongNV8
-            // 
-            this.ucThuongNV8.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV8.Location = new System.Drawing.Point(8, 330);
-            this.ucThuongNV8.Name = "ucThuongNV8";
-            this.ucThuongNV8.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV8.TabIndex = 7;
-            // 
-            // ucThuongNV9
-            // 
-            this.ucThuongNV9.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV9.Location = new System.Drawing.Point(8, 376);
-            this.ucThuongNV9.Name = "ucThuongNV9";
-            this.ucThuongNV9.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV9.TabIndex = 8;
-            // 
-            // ucThuongNV10
-            // 
-            this.ucThuongNV10.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV10.Location = new System.Drawing.Point(8, 422);
-            this.ucThuongNV10.Name = "ucThuongNV10";
-            this.ucThuongNV10.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV10.TabIndex = 9;
-            // 
-            // ucThuongNV11
-            // 
-            this.ucThuongNV11.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV11.Location = new System.Drawing.Point(8, 468);
-            this.ucThuongNV11.Name = "ucThuongNV11";
-            this.ucThuongNV11.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV11.TabIndex = 10;
-            // 
-            // ucThuongNV12
-            // 
-            this.ucThuongNV12.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV12.Location = new System.Drawing.Point(8, 514);
-            this.ucThuongNV12.Name = "ucThuongNV12";
-            this.ucThuongNV12.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV12.TabIndex = 11;
-            // 
-            // ucThuongNV13
-            // 
-            this.ucThuongNV13.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV13.Location = new System.Drawing.Point(8, 560);
-            this.ucThuongNV13.Name = "ucThuongNV13";
-            this.ucThuongNV13.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV13.TabIndex = 12;
-            // 
-            // ucThuongNV14
-            // 
-            this.ucThuongNV14.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV14.Location = new System.Drawing.Point(8, 606);
-            this.ucThuongNV14.Name = "ucThuongNV14";
-            this.ucThuongNV14.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV14.TabIndex = 13;
-            // 
-            // ucThuongNV15
-            // 
-            this.ucThuongNV15.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV15.Location = new System.Drawing.Point(8, 652);
-            this.ucThuongNV15.Name = "ucThuongNV15";
-            this.ucThuongNV15.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV15.TabIndex = 14;
-            // 
-            // ucThuongNV16
-            // 
-            this.ucThuongNV16.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV16.Location = new System.Drawing.Point(8, 698);
-            this.ucThuongNV16.Name = "ucThuongNV16";
-            this.ucThuongNV16.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV16.TabIndex = 15;
-            // 
-            // ucThuongNV17
-            // 
-            this.ucThuongNV17.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV17.Location = new System.Drawing.Point(8, 744);
-            this.ucThuongNV17.Name = "ucThuongNV17";
-            this.ucThuongNV17.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV17.TabIndex = 16;
-            // 
-            // ucThuongNV18
-            // 
-            this.ucThuongNV18.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV18.Location = new System.Drawing.Point(8, 790);
-            this.ucThuongNV18.Name = "ucThuongNV18";
-            this.ucThuongNV18.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV18.TabIndex = 17;
-            // 
-            // ucThuongNV19
-            // 
-            this.ucThuongNV19.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV19.Location = new System.Drawing.Point(8, 836);
-            this.ucThuongNV19.Name = "ucThuongNV19";
-            this.ucThuongNV19.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV19.TabIndex = 18;
-            // 
-            // ucThuongNV20
-            // 
-            this.ucThuongNV20.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV20.Location = new System.Drawing.Point(8, 882);
-            this.ucThuongNV20.Name = "ucThuongNV20";
-            this.ucThuongNV20.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV20.TabIndex = 19;
-            // 
-            // ucThuongNV21
-            // 
-            this.ucThuongNV21.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ucThuongNV21.Location = new System.Drawing.Point(8, 928);
-            this.ucThuongNV21.Name = "ucThuongNV21";
-            this.ucThuongNV21.Size = new System.Drawing.Size(970, 40);
-            this.ucThuongNV21.TabIndex = 20;
+            this.pnlDSThuong.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlDSThuong.AutoScroll = true;
+            this.pnlDSThuong.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlDSThuong.Location = new System.Drawing.Point(18, 86);
+            this.pnlDSThuong.Name = "pnlDSThuong";
+            this.pnlDSThuong.Padding = new System.Windows.Forms.Padding(5);
+            this.pnlDSThuong.Size = new System.Drawing.Size(995, 541);
+            this.pnlDSThuong.TabIndex = 1;
             // 
             // fThongKeThuong
             // 
@@ -577,7 +366,6 @@
             this.Text = "fThongKeThuong";
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -591,7 +379,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2ImageButton btnTimKiem;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
@@ -602,26 +389,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private ucThuongNV ucThuongNV1;
-        private ucThuongNV ucThuongNV2;
-        private ucThuongNV ucThuongNV3;
-        private ucThuongNV ucThuongNV4;
-        private ucThuongNV ucThuongNV5;
-        private ucThuongNV ucThuongNV6;
-        private ucThuongNV ucThuongNV7;
-        private ucThuongNV ucThuongNV8;
-        private ucThuongNV ucThuongNV9;
-        private ucThuongNV ucThuongNV10;
-        private ucThuongNV ucThuongNV11;
-        private ucThuongNV ucThuongNV12;
-        private ucThuongNV ucThuongNV13;
-        private ucThuongNV ucThuongNV14;
-        private ucThuongNV ucThuongNV15;
-        private ucThuongNV ucThuongNV16;
-        private ucThuongNV ucThuongNV17;
-        private ucThuongNV ucThuongNV18;
-        private ucThuongNV ucThuongNV19;
-        private ucThuongNV ucThuongNV20;
-        private ucThuongNV ucThuongNV21;
+        private System.Windows.Forms.FlowLayoutPanel pnlDSThuong;
     }
 }

@@ -35,7 +35,7 @@
             this.txtNgaySinh = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txtSoTien = new System.Windows.Forms.Label();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
@@ -156,16 +156,16 @@
             this.guna2TextBox6.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.guna2TextBox6.TabIndex = 68;
             // 
-            // label7
+            // txtSoTien
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(288, 121);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 20);
-            this.label7.TabIndex = 67;
-            this.label7.Text = "Số tiền phạt";
+            this.txtSoTien.AutoSize = true;
+            this.txtSoTien.BackColor = System.Drawing.Color.Transparent;
+            this.txtSoTien.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTien.Location = new System.Drawing.Point(288, 121);
+            this.txtSoTien.Name = "txtSoTien";
+            this.txtSoTien.Size = new System.Drawing.Size(108, 20);
+            this.txtSoTien.TabIndex = 67;
+            this.txtSoTien.Text = "Số tiền thưởng";
             // 
             // guna2TextBox4
             // 
@@ -276,7 +276,7 @@
             this.Controls.Add(this.txtNgaySinh);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.guna2TextBox6);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtSoTien);
             this.Controls.Add(this.guna2TextBox4);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtHoTen);
@@ -299,7 +299,7 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker txtNgaySinh;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label txtSoTien;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
