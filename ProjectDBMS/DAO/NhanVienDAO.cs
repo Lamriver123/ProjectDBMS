@@ -16,7 +16,7 @@ namespace ProjectDBMS.DAO
             using (SqlConnection connection = ConnectDB.GetConnection())
             {
 
-                SqlCommand command = new SqlCommand("ThemNhanVien", connection);
+                SqlCommand command = new SqlCommand("proc_ThemNhanVien", connection);
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@HoTen", nhanVien.HoTen);
                 command.Parameters.AddWithValue("@GioiTinh", nhanVien.GioiTinh);
@@ -43,7 +43,7 @@ namespace ProjectDBMS.DAO
 
             {
 
-                SqlCommand command = new SqlCommand("CapNhatNhanVien", connection);
+                SqlCommand command = new SqlCommand("proc_CapNhatNhanVien", connection);
 
                 command.CommandType = CommandType.StoredProcedure;
 
@@ -80,7 +80,7 @@ namespace ProjectDBMS.DAO
 
             {
 
-                SqlCommand command = new SqlCommand("XoaNhanVien", connection);
+                SqlCommand command = new SqlCommand("proc_XoaNhanVien", connection);
 
                 command.CommandType = CommandType.StoredProcedure;
 

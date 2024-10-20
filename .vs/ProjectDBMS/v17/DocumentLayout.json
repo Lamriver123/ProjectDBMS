@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fthemnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fthemnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fdanhsachnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fdanhsachnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\ket noi database quan ly\\lam\\projectdbms\\fdanhsachnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\projectdbms\\fdanhsachnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fdanhsachnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "fThemNhanVien.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThemNhanVien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fThemNhanVien.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fThemNhanVien.cs",
+              "RelativeToolTip": "ProjectDBMS\\fThemNhanVien.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:51:09.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "fDanhSachNV.cs",
               "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fDanhSachNV.cs",
               "RelativeDocumentMoniker": "ProjectDBMS\\fDanhSachNV.cs",
               "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fDanhSachNV.cs",
               "RelativeToolTip": "ProjectDBMS\\fDanhSachNV.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAApwHIAAAApAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAmwIIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T03:32:58.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "fDanhSachNV.cs [Design]",
               "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\ket noi database quan ly\\Lam\\ProjectDBMS\\fDanhSachNV.cs",
               "RelativeDocumentMoniker": "ProjectDBMS\\fDanhSachNV.cs",
