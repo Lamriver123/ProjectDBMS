@@ -29,6 +29,7 @@ namespace ProjectDBMS
             }
             NhanVien nhanVien = DAO.NhanVienDAO.LayNhanVienTheoMaNV(MaNV);
             maNV = MaNV;
+            lblMaNV.Text = MaNV.ToString();
             txtHoTen.Text = nhanVien.HoTen;
             txtGioiTinh.Text = nhanVien.GioiTinh;
             txtNgaySinh.Value = nhanVien.NgaySinh;

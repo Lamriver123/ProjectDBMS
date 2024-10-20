@@ -147,5 +147,83 @@ namespace ProjectDBMS.DAO
 
             }
         }
+        //lay danh sach nhan vien theo ma phong ban
+        public static DataTable LayNhanVienTheoMaPB(int maPB)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("Select * From fn_LocNhanVienTheoPhongBan(@MaPB)", connection);
+
+                command.Parameters.AddWithValue("@MaPB", maPB);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
+        //lay danh sach nhan vien theo ma chuc vu
+        public static DataTable LayNhanVienTheoMaCV(int maCV)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("Select * From fn_LocNhanVienTheoChucVu(@MaCV)", connection);
+
+                command.Parameters.AddWithValue("@MaCV", maCV);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
+        //lay danh sach nhan vien theo keyword
+        public static DataTable LayNhanVienTheoKeyword(string keyword)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("Select * From fn_TimKiemNhanVien(@SearchText)", connection);
+
+                command.Parameters.AddWithValue("@SearchText", keyword);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
     }
 }

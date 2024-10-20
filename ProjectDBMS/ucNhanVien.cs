@@ -22,6 +22,7 @@ namespace ProjectDBMS
         {
             InitializeComponent();
             MaNV = int.Parse(dr["MaNV"].ToString());
+            lblSTT.Text = MaNV.ToString();
             txtHoTen.Text = dr["HoTen"].ToString();
             txtSDT.Text = dr["SDT"].ToString();
             txtTenCV.Text = dr["TenCV"].ToString();

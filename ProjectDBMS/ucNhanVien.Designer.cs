@@ -123,6 +123,7 @@
             this.btnChiTiet.PressedState.ImageSize = new System.Drawing.Size(30, 30);
             this.btnChiTiet.Size = new System.Drawing.Size(30, 30);
             this.btnChiTiet.TabIndex = 9;
+            this.btnChiTiet.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // guna2ImageButton1
             // 
@@ -137,6 +138,7 @@
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
             this.guna2ImageButton1.TabIndex = 10;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
             // ucNhanVien
             // 

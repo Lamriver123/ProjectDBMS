@@ -15,7 +15,7 @@ namespace ProjectDBMS.DAO
             using (SqlConnection connection = ConnectDB.GetConnection())
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("Select * From PhongBan", connection);
+                SqlCommand command = new SqlCommand("Select MaPB, TenPB From PhongBan", connection);
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);

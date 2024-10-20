@@ -28,7 +28,6 @@ F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectD
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fDanhSachNV.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fLuongNV.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fNhanVien.resources
-F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.Form1.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fThemPhat.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fThemThuong.resources
 F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeThuong.resources
@@ -73,3 +72,9 @@ G:\HK1_Nam3\DBMS\Project\Test\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuong.re
 G:\HK1_Nam3\DBMS\Project\Test\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeLuong.resources
 G:\HK1_Nam3\DBMS\Project\Test\ProjectDBMS\obj\Debug\ProjectDBMS.fDangNhap.resources
 G:\HK1_Nam3\DBMS\Project\Test\ProjectDBMS\obj\Debug\ProjectDBMS.fQuanLy.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuong.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fDangNhap.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fDanhSachLuong.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fQuanLy.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeLuong.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\Lam\ProjectDBMS\obj\Debug\ProjectDBMS.ucLuongNV.resources
