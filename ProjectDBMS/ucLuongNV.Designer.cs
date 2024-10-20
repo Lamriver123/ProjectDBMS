@@ -35,7 +35,7 @@
             this.txtTenPB = new System.Windows.Forms.Label();
             this.txtTenCV = new System.Windows.Forms.Label();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtLuongThucNhan = new System.Windows.Forms.Label();
             this.btnChiTiet = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
             // 
@@ -99,15 +99,15 @@
             this.guna2CircleButton1.TabIndex = 6;
             this.guna2CircleButton1.Text = "N";
             // 
-            // label1
+            // txtLuongThucNhan
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(692, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 25);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "10000000 VND";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtLuongThucNhan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLuongThucNhan.Location = new System.Drawing.Point(692, 7);
+            this.txtLuongThucNhan.Name = "txtLuongThucNhan";
+            this.txtLuongThucNhan.Size = new System.Drawing.Size(191, 25);
+            this.txtLuongThucNhan.TabIndex = 9;
+            this.txtLuongThucNhan.Text = "10000000 VND";
+            this.txtLuongThucNhan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnChiTiet
             // 
@@ -129,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtLuongThucNhan);
             this.Controls.Add(this.btnChiTiet);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.txtTenCV);
@@ -151,6 +151,6 @@
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private System.Windows.Forms.Label txtTenCV;
         private Guna.UI2.WinForms.Guna2ImageButton btnChiTiet;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtLuongThucNhan;
     }
 }

@@ -33,8 +33,8 @@
             this.btnThongKe = new Guna.UI2.WinForms.Guna2Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtGioiTinh = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtThang = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtNam = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // pTrang
@@ -110,19 +110,19 @@
             this.label1.TabIndex = 52;
             this.label1.Text = "Năm";
             // 
-            // txtGioiTinh
+            // txtThang
             // 
-            this.txtGioiTinh.BackColor = System.Drawing.Color.Transparent;
-            this.txtGioiTinh.BorderColor = System.Drawing.Color.Silver;
-            this.txtGioiTinh.BorderThickness = 2;
-            this.txtGioiTinh.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.txtGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.txtGioiTinh.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGioiTinh.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGioiTinh.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.txtGioiTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.txtGioiTinh.ItemHeight = 30;
-            this.txtGioiTinh.Items.AddRange(new object[] {
+            this.txtThang.BackColor = System.Drawing.Color.Transparent;
+            this.txtThang.BorderColor = System.Drawing.Color.Silver;
+            this.txtThang.BorderThickness = 2;
+            this.txtThang.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtThang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtThang.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtThang.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtThang.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtThang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtThang.ItemHeight = 30;
+            this.txtThang.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -135,36 +135,37 @@
             "10",
             "11",
             "12"});
-            this.txtGioiTinh.Location = new System.Drawing.Point(911, 41);
-            this.txtGioiTinh.Name = "txtGioiTinh";
-            this.txtGioiTinh.Size = new System.Drawing.Size(125, 36);
-            this.txtGioiTinh.StartIndex = 0;
-            this.txtGioiTinh.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtGioiTinh.TabIndex = 51;
+            this.txtThang.Location = new System.Drawing.Point(911, 41);
+            this.txtThang.Name = "txtThang";
+            this.txtThang.Size = new System.Drawing.Size(125, 36);
+            this.txtThang.StartIndex = 0;
+            this.txtThang.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtThang.TabIndex = 51;
+            this.txtThang.SelectedIndexChanged += new System.EventHandler(this.txtThang_SelectedIndexChanged);
             // 
-            // txtHoTen
+            // txtNam
             // 
-            this.txtHoTen.BorderColor = System.Drawing.Color.Silver;
-            this.txtHoTen.BorderThickness = 2;
-            this.txtHoTen.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtHoTen.DefaultText = "";
-            this.txtHoTen.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtHoTen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtHoTen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtHoTen.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtHoTen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtHoTen.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHoTen.ForeColor = System.Drawing.Color.Black;
-            this.txtHoTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtHoTen.Location = new System.Drawing.Point(756, 36);
-            this.txtHoTen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.PasswordChar = '\0';
-            this.txtHoTen.PlaceholderText = "Nhập năm";
-            this.txtHoTen.SelectedText = "";
-            this.txtHoTen.Size = new System.Drawing.Size(128, 41);
-            this.txtHoTen.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtHoTen.TabIndex = 50;
+            this.txtNam.BorderColor = System.Drawing.Color.Silver;
+            this.txtNam.BorderThickness = 2;
+            this.txtNam.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNam.DefaultText = "2024";
+            this.txtNam.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtNam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtNam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNam.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNam.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNam.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNam.ForeColor = System.Drawing.Color.Black;
+            this.txtNam.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNam.Location = new System.Drawing.Point(756, 36);
+            this.txtNam.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNam.Name = "txtNam";
+            this.txtNam.PasswordChar = '\0';
+            this.txtNam.PlaceholderText = "Nhập năm";
+            this.txtNam.SelectedText = "";
+            this.txtNam.Size = new System.Drawing.Size(128, 41);
+            this.txtNam.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtNam.TabIndex = 50;
             // 
             // fLuongNV
             // 
@@ -174,8 +175,8 @@
             this.ClientSize = new System.Drawing.Size(1124, 792);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtGioiTinh);
-            this.Controls.Add(this.txtHoTen);
+            this.Controls.Add(this.txtThang);
+            this.Controls.Add(this.txtNam);
             this.Controls.Add(this.btnThongKe);
             this.Controls.Add(this.btnDanhSach);
             this.Controls.Add(this.pTrang);
@@ -195,7 +196,7 @@
         private Guna.UI2.WinForms.Guna2Button btnThongKe;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2ComboBox txtGioiTinh;
-        private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
+        private Guna.UI2.WinForms.Guna2ComboBox txtThang;
+        private Guna.UI2.WinForms.Guna2TextBox txtNam;
     }
 }

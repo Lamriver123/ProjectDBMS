@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectDBMS.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,23 @@ namespace ProjectDBMS
         public fDanhSachLuong()
         {
             InitializeComponent();
+            DataTable dt = LuongDAO.LayLuongThucNhanTheoNgay(DateTime.Now);
+            foreach(DataRow dr in dt.Rows)
+            {
+                ucLuongNV uc = new ucLuongNV(dr);
+                pnlDSLuong.Controls.Add(uc);
+            }
+        }
+
+        public void CapNhatNgay(DateTime ngay)
+        {
+            pnlDSLuong.Controls.Clear();
+            DataTable dt = LuongDAO.LayLuongThucNhanTheoNgay(ngay);
+            foreach (DataRow dr in dt.Rows)
+            {
+                ucLuongNV uc = new ucLuongNV(dr);
+                pnlDSLuong.Controls.Add(uc);
+            }
         }
     }
 }

@@ -18,7 +18,7 @@ namespace ProjectDBMS
         {
             InitializeComponent();
         }
-
+        
         private void btnDanhSach_Click(object sender, EventArgs e)
         {
             btnDanhSach.CustomBorderColor = Color.FromArgb(88, 69, 194);
@@ -51,6 +51,13 @@ namespace ProjectDBMS
         private void fLuongNV_Load(object sender, EventArgs e)
         {
             btnDanhSach_Click(sender, e);
+        }
+
+        private void txtThang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DateTime ngay = new DateTime(int.Parse(txtNam.Text), int.Parse(txtThang.Text), 1);
+            fDanhSachLuong ds = pTrang.Controls[0] as fDanhSachLuong;
+            ds.CapNhatNgay(ngay);
         }
     }
 }
