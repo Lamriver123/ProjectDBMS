@@ -12,9 +12,51 @@ namespace ProjectDBMS
 {
     public partial class fNhanVien : Form
     {
+        private Form activeForm = null;
         public fNhanVien()
         {
             InitializeComponent();
+        }
+
+        private void btnThongTinCaNhan_Click(object sender, EventArgs e)
+        {
+            btnThongTinCaNhan.FillColor = Color.FromArgb(128, 128, 255);
+            btnThongTinLuong.FillColor = Color.Transparent;
+
+            Form fChild = new fThongTinCaNhan();
+            AddChild(fChild);
+        }
+        private void AddChild(Form Child)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = Child;
+            Child.TopLevel = false;
+            Child.FormBorderStyle = FormBorderStyle.None;
+            Child.Dock = DockStyle.Fill;
+            pChild.Controls.Add(Child);
+            pChild.Tag = Child;
+            Child.BringToFront();
+            Child.Show();
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnThongTinLuong_Click(object sender, EventArgs e)
+        {
+            btnThongTinLuong.FillColor = Color.FromArgb(128, 128, 255);
+            btnThongTinCaNhan.FillColor = Color.Transparent;
+
+            Form fChild = new fThongTinLuong();
+            AddChild(fChild);
+        }
+
+        private void fNhanVien_Load(object sender, EventArgs e)
+        {
+            btnThongTinCaNhan_Click(sender, e);
         }
     }
 }

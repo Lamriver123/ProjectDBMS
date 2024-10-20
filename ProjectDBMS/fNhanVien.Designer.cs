@@ -34,13 +34,9 @@
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pButton = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnDangXuat = new Guna.UI2.WinForms.Guna2Button();
-            this.btnLuongNV = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnDanhSachTru = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThongTinLuong = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnDanhSachThuong = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnDanhSachNV = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThongTinCaNhan = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -117,13 +113,9 @@
             this.pButton.BorderRadius = 50;
             this.pButton.BorderThickness = 1;
             this.pButton.Controls.Add(this.btnDangXuat);
-            this.pButton.Controls.Add(this.btnLuongNV);
-            this.pButton.Controls.Add(this.guna2Panel4);
-            this.pButton.Controls.Add(this.btnDanhSachTru);
+            this.pButton.Controls.Add(this.btnThongTinLuong);
             this.pButton.Controls.Add(this.guna2Panel3);
-            this.pButton.Controls.Add(this.btnDanhSachThuong);
-            this.pButton.Controls.Add(this.guna2Panel2);
-            this.pButton.Controls.Add(this.btnDanhSachNV);
+            this.pButton.Controls.Add(this.btnThongTinCaNhan);
             this.pButton.Controls.Add(this.guna2Panel1);
             this.pButton.CustomizableEdges.BottomLeft = false;
             this.pButton.CustomizableEdges.BottomRight = false;
@@ -162,125 +154,64 @@
             this.btnDangXuat.TabIndex = 8;
             this.btnDangXuat.Text = "Đăng xuất";
             this.btnDangXuat.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
-            // btnLuongNV
+            // btnThongTinLuong
             // 
-            this.btnLuongNV.BorderRadius = 10;
-            this.btnLuongNV.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnLuongNV.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLuongNV.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLuongNV.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLuongNV.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLuongNV.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLuongNV.FillColor = System.Drawing.Color.Transparent;
-            this.btnLuongNV.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuongNV.ForeColor = System.Drawing.Color.White;
-            this.btnLuongNV.Image = global::ProjectDBMS.Properties.Resources.icons8_salary_50;
-            this.btnLuongNV.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLuongNV.Location = new System.Drawing.Point(10, 317);
-            this.btnLuongNV.Margin = new System.Windows.Forms.Padding(0);
-            this.btnLuongNV.Name = "btnLuongNV";
-            this.btnLuongNV.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnLuongNV.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnLuongNV.Size = new System.Drawing.Size(164, 45);
-            this.btnLuongNV.TabIndex = 7;
-            this.btnLuongNV.Text = "Lương nhân viên";
-            this.btnLuongNV.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel4.Location = new System.Drawing.Point(10, 312);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(164, 5);
-            this.guna2Panel4.TabIndex = 6;
-            // 
-            // btnDanhSachTru
-            // 
-            this.btnDanhSachTru.BorderRadius = 10;
-            this.btnDanhSachTru.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDanhSachTru.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDanhSachTru.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDanhSachTru.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDanhSachTru.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDanhSachTru.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDanhSachTru.FillColor = System.Drawing.Color.Transparent;
-            this.btnDanhSachTru.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDanhSachTru.ForeColor = System.Drawing.Color.White;
-            this.btnDanhSachTru.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDanhSachTru.Location = new System.Drawing.Point(10, 267);
-            this.btnDanhSachTru.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDanhSachTru.Name = "btnDanhSachTru";
-            this.btnDanhSachTru.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnDanhSachTru.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnDanhSachTru.Size = new System.Drawing.Size(164, 45);
-            this.btnDanhSachTru.TabIndex = 5;
-            this.btnDanhSachTru.Text = "Thống kê thấu trừ";
-            this.btnDanhSachTru.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongTinLuong.BorderRadius = 10;
+            this.btnThongTinLuong.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThongTinLuong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongTinLuong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongTinLuong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThongTinLuong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThongTinLuong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnThongTinLuong.FillColor = System.Drawing.Color.Transparent;
+            this.btnThongTinLuong.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongTinLuong.ForeColor = System.Drawing.Color.White;
+            this.btnThongTinLuong.Image = global::ProjectDBMS.Properties.Resources.icons8_salary_50;
+            this.btnThongTinLuong.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongTinLuong.Location = new System.Drawing.Point(10, 217);
+            this.btnThongTinLuong.Margin = new System.Windows.Forms.Padding(0);
+            this.btnThongTinLuong.Name = "btnThongTinLuong";
+            this.btnThongTinLuong.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnThongTinLuong.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnThongTinLuong.Size = new System.Drawing.Size(164, 45);
+            this.btnThongTinLuong.TabIndex = 7;
+            this.btnThongTinLuong.Text = "Thông tin lương";
+            this.btnThongTinLuong.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongTinLuong.Click += new System.EventHandler(this.btnThongTinLuong_Click);
             // 
             // guna2Panel3
             // 
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel3.Location = new System.Drawing.Point(10, 262);
+            this.guna2Panel3.Location = new System.Drawing.Point(10, 212);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(164, 5);
             this.guna2Panel3.TabIndex = 4;
             // 
-            // btnDanhSachThuong
+            // btnThongTinCaNhan
             // 
-            this.btnDanhSachThuong.BorderRadius = 10;
-            this.btnDanhSachThuong.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDanhSachThuong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDanhSachThuong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDanhSachThuong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDanhSachThuong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDanhSachThuong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDanhSachThuong.FillColor = System.Drawing.Color.Transparent;
-            this.btnDanhSachThuong.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDanhSachThuong.ForeColor = System.Drawing.Color.White;
-            this.btnDanhSachThuong.Image = global::ProjectDBMS.Properties.Resources.icons8_reward_50;
-            this.btnDanhSachThuong.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDanhSachThuong.Location = new System.Drawing.Point(10, 217);
-            this.btnDanhSachThuong.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDanhSachThuong.Name = "btnDanhSachThuong";
-            this.btnDanhSachThuong.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnDanhSachThuong.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnDanhSachThuong.Size = new System.Drawing.Size(164, 45);
-            this.btnDanhSachThuong.TabIndex = 3;
-            this.btnDanhSachThuong.Text = "Thống kê thưởng";
-            this.btnDanhSachThuong.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(10, 212);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(164, 5);
-            this.guna2Panel2.TabIndex = 2;
-            // 
-            // btnDanhSachNV
-            // 
-            this.btnDanhSachNV.BorderRadius = 10;
-            this.btnDanhSachNV.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDanhSachNV.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDanhSachNV.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDanhSachNV.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDanhSachNV.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDanhSachNV.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDanhSachNV.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDanhSachNV.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDanhSachNV.ForeColor = System.Drawing.Color.White;
-            this.btnDanhSachNV.Image = global::ProjectDBMS.Properties.Resources.icons8_member_50;
-            this.btnDanhSachNV.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDanhSachNV.Location = new System.Drawing.Point(10, 167);
-            this.btnDanhSachNV.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDanhSachNV.Name = "btnDanhSachNV";
-            this.btnDanhSachNV.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnDanhSachNV.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnDanhSachNV.Size = new System.Drawing.Size(164, 45);
-            this.btnDanhSachNV.TabIndex = 1;
-            this.btnDanhSachNV.Text = "Danh sách";
-            this.btnDanhSachNV.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongTinCaNhan.BorderRadius = 10;
+            this.btnThongTinCaNhan.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThongTinCaNhan.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongTinCaNhan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongTinCaNhan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThongTinCaNhan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThongTinCaNhan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnThongTinCaNhan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThongTinCaNhan.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongTinCaNhan.ForeColor = System.Drawing.Color.White;
+            this.btnThongTinCaNhan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongTinCaNhan.Location = new System.Drawing.Point(10, 167);
+            this.btnThongTinCaNhan.Margin = new System.Windows.Forms.Padding(0);
+            this.btnThongTinCaNhan.Name = "btnThongTinCaNhan";
+            this.btnThongTinCaNhan.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnThongTinCaNhan.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnThongTinCaNhan.Size = new System.Drawing.Size(164, 45);
+            this.btnThongTinCaNhan.TabIndex = 1;
+            this.btnThongTinCaNhan.Text = "Thông tin cá nhân";
+            this.btnThongTinCaNhan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongTinCaNhan.Click += new System.EventHandler(this.btnThongTinCaNhan_Click);
             // 
             // guna2Panel1
             // 
@@ -361,6 +292,7 @@
             this.Name = "fNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.fNhanVien_Load);
             this.pToolBox.ResumeLayout(false);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
@@ -381,13 +313,9 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel pButton;
-        private Guna.UI2.WinForms.Guna2Button btnLuongNV;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2Button btnDanhSachTru;
+        private Guna.UI2.WinForms.Guna2Button btnThongTinLuong;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2Button btnDanhSachThuong;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button btnDanhSachNV;
+        private Guna.UI2.WinForms.Guna2Button btnThongTinCaNhan;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
