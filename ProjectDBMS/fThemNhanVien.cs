@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -35,9 +36,9 @@ namespace ProjectDBMS
                 MessageBox.Show("Thêm nhân viên thành công");
                 this.Close();
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show("Thêm nhân viên thất bại" + ex);
+                MessageBox.Show(ex.Message);
             }
         }
 
