@@ -21,7 +21,10 @@ namespace ProjectDBMS
         public ucThuongNV(DataRow dr)
         {
             InitializeComponent();
-            DR=dr;
+            Random rand = new Random();
+            btnAvt.FillColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+            btnAvt.Text = dr["HoTen"].ToString().Substring(0, 1);
+            DR =dr;
             txtHoTen.Text = dr["HoTen"].ToString();
             lblSTT.Text = dr["MaNV"].ToString();
             txtSoTien.Text = dr["SoTien"].ToString();

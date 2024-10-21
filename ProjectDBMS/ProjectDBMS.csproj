@@ -243,6 +243,12 @@
     <EmbeddedResource Include="fThongKeTru.resx">
       <DependentUpon>fThongKeTru.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fThongTinCaNhan.resx">
+      <DependentUpon>fThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThongTinLuong.resx">
+      <DependentUpon>fThongTinLuong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

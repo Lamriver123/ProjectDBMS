@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.btnThemNhanVien = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cbChucVu = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,9 +42,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pnlNhanVien = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnThemNhanVien = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -63,30 +63,6 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(1124, 792);
             this.panel.TabIndex = 2;
-            // 
-            // btnThemNhanVien
-            // 
-            this.btnThemNhanVien.BorderRadius = 10;
-            this.btnThemNhanVien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnThemNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnThemNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnThemNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThemNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btnThemNhanVien.Image = global::ProjectDBMS.Properties.Resources.icons8_add_50;
-            this.btnThemNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThemNhanVien.Location = new System.Drawing.Point(912, 61);
-            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(0);
-            this.btnThemNhanVien.Name = "btnThemNhanVien";
-            this.btnThemNhanVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnThemNhanVien.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.Size = new System.Drawing.Size(164, 45);
-            this.btnThemNhanVien.TabIndex = 9;
-            this.btnThemNhanVien.Text = "Thêm nhân viên";
-            this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
             // 
             // guna2CustomGradientPanel2
             // 
@@ -129,7 +105,6 @@
             this.cbChucVu.Location = new System.Drawing.Point(270, 9);
             this.cbChucVu.Name = "cbChucVu";
             this.cbChucVu.Size = new System.Drawing.Size(190, 36);
-            this.cbChucVu.StartIndex = 0;
             this.cbChucVu.TabIndex = 11;
             this.cbChucVu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cbChucVu.SelectedIndexChanged += new System.EventHandler(this.cbChucVu_SelectedIndexChanged);
@@ -194,7 +169,6 @@
             this.cbPhongBan.Location = new System.Drawing.Point(149, 9);
             this.cbPhongBan.Name = "cbPhongBan";
             this.cbPhongBan.Size = new System.Drawing.Size(123, 36);
-            this.cbPhongBan.StartIndex = 0;
             this.cbPhongBan.TabIndex = 8;
             this.cbPhongBan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cbPhongBan.SelectedIndexChanged += new System.EventHandler(this.cbPhongBan_SelectedIndexChanged);
@@ -285,24 +259,6 @@
             this.pnlNhanVien.Size = new System.Drawing.Size(995, 541);
             this.pnlNhanVien.TabIndex = 1;
             // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
-            this.btnTimKiem.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnTimKiem.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Image = global::ProjectDBMS.Properties.Resources.icons8_search_50;
-            this.btnTimKiem.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnTimKiem.ImageRotate = 0F;
-            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.IndicateFocus = true;
-            this.btnTimKiem.Location = new System.Drawing.Point(323, 63);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Size = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.TabIndex = 4;
-            this.btnTimKiem.UseTransparentBackground = true;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
-            // 
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
@@ -343,6 +299,49 @@
             this.txtSearch.SelectedText = "";
             this.txtSearch.Size = new System.Drawing.Size(271, 36);
             this.txtSearch.TabIndex = 0;
+            // 
+            // btnThemNhanVien
+            // 
+            this.btnThemNhanVien.Animated = true;
+            this.btnThemNhanVien.BorderRadius = 10;
+            this.btnThemNhanVien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThemNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThemNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
+            this.btnThemNhanVien.Image = global::ProjectDBMS.Properties.Resources.icons8_add_50;
+            this.btnThemNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Location = new System.Drawing.Point(912, 61);
+            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(0);
+            this.btnThemNhanVien.Name = "btnThemNhanVien";
+            this.btnThemNhanVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnThemNhanVien.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.Size = new System.Drawing.Size(164, 45);
+            this.btnThemNhanVien.TabIndex = 9;
+            this.btnThemNhanVien.Text = "Thêm nhân viên";
+            this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
+            // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiem.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnTimKiem.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Image = global::ProjectDBMS.Properties.Resources.icons8_search_50;
+            this.btnTimKiem.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnTimKiem.ImageRotate = 0F;
+            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.IndicateFocus = true;
+            this.btnTimKiem.Location = new System.Drawing.Point(323, 63);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Size = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.TabIndex = 4;
+            this.btnTimKiem.UseTransparentBackground = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // fDanhSachNV
             // 

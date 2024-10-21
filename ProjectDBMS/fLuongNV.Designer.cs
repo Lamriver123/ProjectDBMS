@@ -138,7 +138,7 @@
             this.txtThang.Location = new System.Drawing.Point(911, 41);
             this.txtThang.Name = "txtThang";
             this.txtThang.Size = new System.Drawing.Size(125, 36);
-            this.txtThang.StartIndex = 0;
+            this.txtThang.StartIndex = 9;
             this.txtThang.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtThang.TabIndex = 51;
             this.txtThang.SelectedIndexChanged += new System.EventHandler(this.txtThang_SelectedIndexChanged);
@@ -166,6 +166,7 @@
             this.txtNam.Size = new System.Drawing.Size(128, 41);
             this.txtNam.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtNam.TabIndex = 50;
+            this.txtNam.TextChanged += new System.EventHandler(this.txtNam_TextChanged);
             // 
             // fLuongNV
             // 

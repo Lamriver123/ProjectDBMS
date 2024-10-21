@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace ProjectDBMS
 {
@@ -20,6 +21,7 @@ namespace ProjectDBMS
         }
         public ucNhanVien(DataRow dr)
         {
+            Random rand = new Random();
             InitializeComponent();
             MaNV = int.Parse(dr["MaNV"].ToString());
             lblSTT.Text = MaNV.ToString();
@@ -27,6 +29,8 @@ namespace ProjectDBMS
             txtSDT.Text = dr["SDT"].ToString();
             txtTenCV.Text = dr["TenCV"].ToString();
             txtTenPB.Text = dr["TenPB"].ToString();
+            btnAvt.FillColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+            btnAvt.Text = dr["HoTen"].ToString().Substring(0, 1);
         }
         int MaNV = 0;
         private void guna2ImageButton2_Click(object sender, EventArgs e)

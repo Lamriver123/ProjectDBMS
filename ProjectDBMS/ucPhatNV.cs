@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace ProjectDBMS
 {
@@ -19,6 +20,7 @@ namespace ProjectDBMS
         }
         public ucPhatNV(DataRow dr)
         {
+            Random rand = new Random();
             InitializeComponent();
             DR = dr;
             txtHoTen.Text = dr["HoTen"].ToString();
@@ -27,6 +29,8 @@ namespace ProjectDBMS
             txtTenPB.Text = dr["TenPB"].ToString();
             txtTenCV.Text = dr["TenCV"].ToString();
             txtNgayCapNhat.Text = dr["NgayCapNhat"].ToString();
+            btnAvt.FillColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+            btnAvt.Text = dr["HoTen"].ToString().Substring(0, 1);
         }
         DataRow DR;
 

@@ -48,9 +48,9 @@
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnDong = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBoxUser = new System.Windows.Forms.PictureBox();
             this.btnCapNhat = new Guna.UI2.WinForms.Guna2Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBoxUser = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUser)).BeginInit();
             this.SuspendLayout();
@@ -209,8 +209,8 @@
             this.txtMaPB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.txtMaPB.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaPB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaPB.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.txtMaPB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtMaPB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaPB.ForeColor = System.Drawing.Color.Black;
             this.txtMaPB.ItemHeight = 30;
             this.txtMaPB.Items.AddRange(new object[] {
             "PB1",
@@ -231,8 +231,8 @@
             this.txtMaCV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.txtMaCV.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaCV.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaCV.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.txtMaCV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtMaCV.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaCV.ForeColor = System.Drawing.Color.Black;
             this.txtMaCV.ItemHeight = 30;
             this.txtMaCV.Items.AddRange(new object[] {
             "1",
@@ -256,7 +256,8 @@
             this.txtDiaChi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDiaChi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDiaChi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaChi.ForeColor = System.Drawing.Color.Black;
             this.txtDiaChi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDiaChi.Location = new System.Drawing.Point(57, 360);
             this.txtDiaChi.Name = "txtDiaChi";
@@ -278,7 +279,8 @@
             this.txtSDT.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSDT.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSDT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSDT.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSDT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSDT.ForeColor = System.Drawing.Color.Black;
             this.txtSDT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSDT.Location = new System.Drawing.Point(57, 197);
             this.txtSDT.Name = "txtSDT";
@@ -295,7 +297,7 @@
             this.txtNgaySinh.BorderColor = System.Drawing.Color.Silver;
             this.txtNgaySinh.Checked = true;
             this.txtNgaySinh.FillColor = System.Drawing.Color.White;
-            this.txtNgaySinh.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNgaySinh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtNgaySinh.Location = new System.Drawing.Point(398, 197);
             this.txtNgaySinh.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -319,7 +321,7 @@
             this.txtGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.txtGioiTinh.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGioiTinh.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGioiTinh.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtGioiTinh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGioiTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.txtGioiTinh.ItemHeight = 30;
             this.txtGioiTinh.Items.AddRange(new object[] {
@@ -343,7 +345,8 @@
             this.txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Location = new System.Drawing.Point(57, 280);
             this.txtEmail.Name = "txtEmail";
@@ -365,7 +368,7 @@
             this.txtHoTen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtHoTen.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtHoTen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtHoTen.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHoTen.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoTen.ForeColor = System.Drawing.Color.Black;
             this.txtHoTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtHoTen.Location = new System.Drawing.Point(57, 116);
@@ -394,18 +397,6 @@
             this.btnDong.TabIndex = 43;
             this.btnDong.Text = "Đóng";
             // 
-            // pictureBoxUser
-            // 
-            this.pictureBoxUser.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxUser.Image = global::ProjectDBMS.Properties.Resources.icons8_avatar_100;
-            this.pictureBoxUser.Location = new System.Drawing.Point(689, 116);
-            this.pictureBoxUser.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBoxUser.Name = "pictureBoxUser";
-            this.pictureBoxUser.Size = new System.Drawing.Size(186, 175);
-            this.pictureBoxUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxUser.TabIndex = 42;
-            this.pictureBoxUser.TabStop = false;
-            // 
             // btnCapNhat
             // 
             this.btnCapNhat.BorderRadius = 10;
@@ -431,6 +422,18 @@
             this.label11.Size = new System.Drawing.Size(269, 32);
             this.label11.TabIndex = 46;
             this.label11.Text = "Cập nhật nhân viên";
+            // 
+            // pictureBoxUser
+            // 
+            this.pictureBoxUser.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxUser.Image = global::ProjectDBMS.Properties.Resources.icons8_avatar_100;
+            this.pictureBoxUser.Location = new System.Drawing.Point(689, 116);
+            this.pictureBoxUser.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxUser.Name = "pictureBoxUser";
+            this.pictureBoxUser.Size = new System.Drawing.Size(186, 175);
+            this.pictureBoxUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxUser.TabIndex = 42;
+            this.pictureBoxUser.TabStop = false;
             // 
             // fCapNhatNhanVien
             // 

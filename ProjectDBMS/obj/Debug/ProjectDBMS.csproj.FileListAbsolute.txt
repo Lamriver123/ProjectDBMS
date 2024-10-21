@@ -111,3 +111,5 @@ G:\HK1_Nam3\DBMS\Project\2010DBMS(1)\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.Co
 G:\HK1_Nam3\DBMS\Project\2010DBMS(1)\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.CopyComplete
 G:\HK1_Nam3\DBMS\Project\2010DBMS(1)\ProjectDBMS\obj\Debug\ProjectDBMS.exe
 G:\HK1_Nam3\DBMS\Project\2010DBMS(1)\ProjectDBMS\obj\Debug\ProjectDBMS.pdb
+G:\HK1_Nam3\DBMS\Project\2010DBMS(1)\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuong.resources
+G:\HK1_Nam3\DBMS\Project\2010DBMS(1)\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinCaNhan.resources

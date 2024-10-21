@@ -34,7 +34,7 @@
             this.txtHoTen = new System.Windows.Forms.Label();
             this.txtTenPB = new System.Windows.Forms.Label();
             this.txtTenCV = new System.Windows.Forms.Label();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnAvt = new Guna.UI2.WinForms.Guna2CircleButton();
             this.txtLuongThucNhan = new System.Windows.Forms.Label();
             this.btnChiTiet = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
@@ -84,20 +84,20 @@
             this.txtTenCV.Text = "Trưởng phòng";
             this.txtTenCV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2CircleButton1
+            // btnAvt
             // 
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(96, 4);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton1.TabIndex = 6;
-            this.guna2CircleButton1.Text = "N";
+            this.btnAvt.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAvt.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAvt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAvt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAvt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAvt.ForeColor = System.Drawing.Color.White;
+            this.btnAvt.Location = new System.Drawing.Point(96, 4);
+            this.btnAvt.Name = "btnAvt";
+            this.btnAvt.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnAvt.Size = new System.Drawing.Size(30, 30);
+            this.btnAvt.TabIndex = 6;
+            this.btnAvt.Text = "N";
             // 
             // txtLuongThucNhan
             // 
@@ -131,7 +131,7 @@
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.Controls.Add(this.txtLuongThucNhan);
             this.Controls.Add(this.btnChiTiet);
-            this.Controls.Add(this.guna2CircleButton1);
+            this.Controls.Add(this.btnAvt);
             this.Controls.Add(this.txtTenCV);
             this.Controls.Add(this.txtTenPB);
             this.Controls.Add(this.txtHoTen);
@@ -148,7 +148,7 @@
         private System.Windows.Forms.Label txtHoTen;
         private System.Windows.Forms.Label lblSTT;
         private System.Windows.Forms.Label txtTenPB;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
+        private Guna.UI2.WinForms.Guna2CircleButton btnAvt;
         private System.Windows.Forms.Label txtTenCV;
         private Guna.UI2.WinForms.Guna2ImageButton btnChiTiet;
         private System.Windows.Forms.Label txtLuongThucNhan;
