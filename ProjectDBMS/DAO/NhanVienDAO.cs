@@ -119,6 +119,58 @@ namespace ProjectDBMS.DAO
             }
         }
 
+        public static DataTable LayTatCaNhanVienLuongTangDan()
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("proc_DanhSachNVLuongTangDan", connection);
+
+                command.CommandType = CommandType.StoredProcedure;
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
+
+        public static DataTable LayTatCaNhanVienLuongGiamDan()
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("proc_DanhSachNVLuongGiamDan", connection);
+
+                command.CommandType = CommandType.StoredProcedure;
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
+
         //Lay thong tin nhan vien theo ma nhan vien
         public static NhanVien LayNhanVienTheoMaNV(int maNV)
 

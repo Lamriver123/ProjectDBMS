@@ -30,9 +30,9 @@
         {
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbSX = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLuongNow = new Guna.UI2.WinForms.Guna2Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -84,24 +84,25 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Sắp xếp : ";
             // 
-            // guna2ComboBox2
+            // cbSX
             // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.BorderRadius = 10;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
+            this.cbSX.BackColor = System.Drawing.Color.Transparent;
+            this.cbSX.BorderRadius = 10;
+            this.cbSX.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbSX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSX.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbSX.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbSX.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbSX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbSX.ItemHeight = 30;
+            this.cbSX.Items.AddRange(new object[] {
             "Lương tăng dần",
             "Lương giảm dần"});
-            this.guna2ComboBox2.Location = new System.Drawing.Point(952, 14);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(132, 36);
-            this.guna2ComboBox2.TabIndex = 14;
+            this.cbSX.Location = new System.Drawing.Point(952, 14);
+            this.cbSX.Name = "cbSX";
+            this.cbSX.Size = new System.Drawing.Size(132, 36);
+            this.cbSX.TabIndex = 14;
+            this.cbSX.SelectedIndexChanged += new System.EventHandler(this.cbSX_SelectedIndexChanged);
             // 
             // guna2ComboBox1
             // 
@@ -131,24 +132,25 @@
             this.guna2ComboBox1.TabIndex = 13;
             this.guna2ComboBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2Button1
+            // btnLuongNow
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2Button1.Location = new System.Drawing.Point(43, 16);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(125, 36);
-            this.guna2Button1.TabIndex = 12;
-            this.guna2Button1.Text = "Tất cả nhân viên";
+            this.btnLuongNow.BackColor = System.Drawing.Color.Transparent;
+            this.btnLuongNow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+            this.btnLuongNow.BorderRadius = 10;
+            this.btnLuongNow.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnLuongNow.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLuongNow.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLuongNow.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLuongNow.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLuongNow.FillColor = System.Drawing.Color.Transparent;
+            this.btnLuongNow.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLuongNow.ForeColor = System.Drawing.Color.DimGray;
+            this.btnLuongNow.Location = new System.Drawing.Point(43, 16);
+            this.btnLuongNow.Name = "btnLuongNow";
+            this.btnLuongNow.Size = new System.Drawing.Size(125, 36);
+            this.btnLuongNow.TabIndex = 12;
+            this.btnLuongNow.Text = "Lương tháng này";
+            this.btnLuongNow.Click += new System.EventHandler(this.btnLuongNow_Click);
             // 
             // label9
             // 
@@ -285,9 +287,9 @@
             this.Controls.Add(this.pnlDSLuong);
             this.Controls.Add(this.guna2ComboBox3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2ComboBox2);
+            this.Controls.Add(this.cbSX);
             this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnLuongNow);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fDanhSachLuong";
             this.Text = "fDanhSachLuong";
@@ -300,9 +302,9 @@
 
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private Guna.UI2.WinForms.Guna2ComboBox cbSX;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnLuongNow;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;

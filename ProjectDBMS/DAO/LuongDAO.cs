@@ -25,5 +25,34 @@ namespace ProjectDBMS.DAO
             }
         }
 
+        public static DataTable LayLuongThucNhanTangDan(DateTime ngay)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                SqlCommand command = new SqlCommand("proc_DanhSachLuongNVTangDan", connection);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@ngay", ngay);
+                connection.Open();
+                DataTable dt = new DataTable();
+                dt.Load(command.ExecuteReader());
+                connection.Close();
+                return dt;
+            }
+        }
+
+        public static DataTable LayLuongThucNhanGiamDan(DateTime ngay)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                SqlCommand command = new SqlCommand("proc_DanhSachLuongNVGiamDan", connection);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@ngay", ngay);
+                connection.Open();
+                DataTable dt = new DataTable();
+                dt.Load(command.ExecuteReader());
+                connection.Close();
+                return dt;
+            }
+        }
     }
 }

@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.panel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.btnThemNhanVien = new Guna.UI2.WinForms.Guna2Button();
+            this.label = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cbChucVu = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbSX = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.cbPhongBan = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnAll = new Guna.UI2.WinForms.Guna2Button();
@@ -42,18 +43,17 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pnlNhanVien = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnThemNhanVien = new Guna.UI2.WinForms.Guna2Button();
-            this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel.SuspendLayout();
-            this.guna2CustomGradientPanel2.SuspendLayout();
+            this.label.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel
             // 
             this.panel.Controls.Add(this.btnThemNhanVien);
-            this.panel.Controls.Add(this.guna2CustomGradientPanel2);
+            this.panel.Controls.Add(this.label);
             this.panel.Controls.Add(this.btnTimKiem);
             this.panel.Controls.Add(this.guna2CircleButton1);
             this.panel.Controls.Add(this.txtSearch);
@@ -64,27 +64,52 @@
             this.panel.Size = new System.Drawing.Size(1124, 792);
             this.panel.TabIndex = 2;
             // 
-            // guna2CustomGradientPanel2
+            // btnThemNhanVien
             // 
-            this.guna2CustomGradientPanel2.BorderColor = System.Drawing.Color.Gray;
-            this.guna2CustomGradientPanel2.BorderRadius = 10;
-            this.guna2CustomGradientPanel2.BorderThickness = 1;
-            this.guna2CustomGradientPanel2.Controls.Add(this.cbChucVu);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label1);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2ComboBox2);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label9);
-            this.guna2CustomGradientPanel2.Controls.Add(this.cbPhongBan);
-            this.guna2CustomGradientPanel2.Controls.Add(this.btnAll);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label8);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label7);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label6);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label5);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.pnlNhanVien);
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(45, 141);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1044, 641);
-            this.guna2CustomGradientPanel2.TabIndex = 6;
+            this.btnThemNhanVien.Animated = true;
+            this.btnThemNhanVien.BorderRadius = 10;
+            this.btnThemNhanVien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThemNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThemNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
+            this.btnThemNhanVien.Image = global::ProjectDBMS.Properties.Resources.icons8_add_50;
+            this.btnThemNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Location = new System.Drawing.Point(912, 61);
+            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(0);
+            this.btnThemNhanVien.Name = "btnThemNhanVien";
+            this.btnThemNhanVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnThemNhanVien.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnThemNhanVien.Size = new System.Drawing.Size(164, 45);
+            this.btnThemNhanVien.TabIndex = 9;
+            this.btnThemNhanVien.Text = "Thêm nhân viên";
+            this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
+            // 
+            // label
+            // 
+            this.label.BorderColor = System.Drawing.Color.Gray;
+            this.label.BorderRadius = 10;
+            this.label.BorderThickness = 1;
+            this.label.Controls.Add(this.cbChucVu);
+            this.label.Controls.Add(this.label1);
+            this.label.Controls.Add(this.cbSX);
+            this.label.Controls.Add(this.label9);
+            this.label.Controls.Add(this.cbPhongBan);
+            this.label.Controls.Add(this.btnAll);
+            this.label.Controls.Add(this.label8);
+            this.label.Controls.Add(this.label7);
+            this.label.Controls.Add(this.label6);
+            this.label.Controls.Add(this.label5);
+            this.label.Controls.Add(this.label3);
+            this.label.Controls.Add(this.pnlNhanVien);
+            this.label.Location = new System.Drawing.Point(45, 141);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(1044, 641);
+            this.label.TabIndex = 6;
             // 
             // cbChucVu
             // 
@@ -114,30 +139,31 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(804, 17);
+            this.label1.Location = new System.Drawing.Point(774, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 21);
             this.label1.TabIndex = 10;
             this.label1.Text = "Sắp xếp : ";
             // 
-            // guna2ComboBox2
+            // cbSX
             // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.BorderRadius = 10;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
+            this.cbSX.BackColor = System.Drawing.Color.Transparent;
+            this.cbSX.BorderRadius = 10;
+            this.cbSX.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbSX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSX.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbSX.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbSX.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbSX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbSX.ItemHeight = 30;
+            this.cbSX.Items.AddRange(new object[] {
             "Lương tăng dần",
             "Lương giảm dần"});
-            this.guna2ComboBox2.Location = new System.Drawing.Point(881, 11);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(132, 36);
-            this.guna2ComboBox2.TabIndex = 9;
+            this.cbSX.Location = new System.Drawing.Point(855, 11);
+            this.cbSX.Name = "cbSX";
+            this.cbSX.Size = new System.Drawing.Size(158, 36);
+            this.cbSX.TabIndex = 9;
+            this.cbSX.SelectedIndexChanged += new System.EventHandler(this.cbSX_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -259,6 +285,24 @@
             this.pnlNhanVien.Size = new System.Drawing.Size(995, 541);
             this.pnlNhanVien.TabIndex = 1;
             // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiem.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnTimKiem.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Image = global::ProjectDBMS.Properties.Resources.icons8_search_50;
+            this.btnTimKiem.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnTimKiem.ImageRotate = 0F;
+            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.IndicateFocus = true;
+            this.btnTimKiem.Location = new System.Drawing.Point(323, 63);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Size = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.TabIndex = 4;
+            this.btnTimKiem.UseTransparentBackground = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
+            // 
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
@@ -300,49 +344,6 @@
             this.txtSearch.Size = new System.Drawing.Size(271, 36);
             this.txtSearch.TabIndex = 0;
             // 
-            // btnThemNhanVien
-            // 
-            this.btnThemNhanVien.Animated = true;
-            this.btnThemNhanVien.BorderRadius = 10;
-            this.btnThemNhanVien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnThemNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnThemNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnThemNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThemNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btnThemNhanVien.Image = global::ProjectDBMS.Properties.Resources.icons8_add_50;
-            this.btnThemNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThemNhanVien.Location = new System.Drawing.Point(912, 61);
-            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(0);
-            this.btnThemNhanVien.Name = "btnThemNhanVien";
-            this.btnThemNhanVien.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnThemNhanVien.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnThemNhanVien.Size = new System.Drawing.Size(164, 45);
-            this.btnThemNhanVien.TabIndex = 9;
-            this.btnThemNhanVien.Text = "Thêm nhân viên";
-            this.btnThemNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
-            this.btnTimKiem.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnTimKiem.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Image = global::ProjectDBMS.Properties.Resources.icons8_search_50;
-            this.btnTimKiem.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnTimKiem.ImageRotate = 0F;
-            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.IndicateFocus = true;
-            this.btnTimKiem.Location = new System.Drawing.Point(323, 63);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Size = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.TabIndex = 4;
-            this.btnTimKiem.UseTransparentBackground = true;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
-            // 
             // fDanhSachNV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -353,8 +354,8 @@
             this.Name = "fDanhSachNV";
             this.Text = "fDanhSachNV";
             this.panel.ResumeLayout(false);
-            this.guna2CustomGradientPanel2.ResumeLayout(false);
-            this.guna2CustomGradientPanel2.PerformLayout();
+            this.label.ResumeLayout(false);
+            this.label.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -363,7 +364,7 @@
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel panel;
         private Guna.UI2.WinForms.Guna2Button btnThemNhanVien;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel label;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2ComboBox cbPhongBan;
         private Guna.UI2.WinForms.Guna2Button btnAll;
@@ -377,7 +378,7 @@
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private Guna.UI2.WinForms.Guna2ComboBox cbSX;
         private Guna.UI2.WinForms.Guna2ComboBox cbChucVu;
     }
 }

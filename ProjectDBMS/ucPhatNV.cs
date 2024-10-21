@@ -28,7 +28,8 @@ namespace ProjectDBMS
             txtSoTien.Text = dr["SoTien"].ToString();
             txtTenPB.Text = dr["TenPB"].ToString();
             txtTenCV.Text = dr["TenCV"].ToString();
-            txtNgayCapNhat.Text = dr["NgayCapNhat"].ToString();
+            DateTime dateTime = DateTime.Parse(dr["NgayCapNhat"].ToString());
+            txtNgayCapNhat.Text = dateTime.ToString("dd/mm/yyyy");
             btnAvt.FillColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
             btnAvt.Text = dr["HoTen"].ToString().Substring(0, 1);
         }

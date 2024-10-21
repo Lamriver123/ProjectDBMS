@@ -30,7 +30,8 @@ namespace ProjectDBMS
             txtSoTien.Text = dr["SoTien"].ToString();
             txtTenPB.Text = dr["TenPB"].ToString();
             txtTenCV.Text = dr["TenCV"].ToString();
-            txtNgayCapNhat.Text = dr["NgayCapNhat"].ToString();
+            DateTime dt = DateTime.Parse(dr["NgayCapNhat"].ToString());
+            txtNgayCapNhat.Text = dt.ToString("dd/mm/yyyy");
         }
         DataRow DR;
         private void btnChiTiet_Click(object sender, EventArgs e)

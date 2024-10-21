@@ -24,6 +24,24 @@ namespace ProjectDBMS
             }
             txtNam.Text = DateTime.Now.Year.ToString();
             addThang(DateTime.Now.Month);
+            //Lay danh sach phong ban
+            DataTable dtPhongBan = DAO.PhongBanDAO.LayTatCaPhongBan();
+            DataRow dr0 = dtPhongBan.NewRow();
+            dr0["MaPB"] = 0;
+            dr0["TenPB"] = "Tất cả";
+            dtPhongBan.Rows.InsertAt(dr0, 0);
+            cbPhongBan.DisplayMember = "TenPB";
+            cbPhongBan.ValueMember = "MaPB";
+            cbPhongBan.DataSource = dtPhongBan;
+            //Lay danh sach chuc vu
+            DataTable dtChucVu = DAO.ChucVuDAO.LayTatCaChucVu();
+            DataRow dr1 = dtChucVu.NewRow();
+            dr1["MaCV"] = 0;
+            dr1["TenCV"] = "Tất cả";
+            dtChucVu.Rows.InsertAt(dr1, 0);
+            cbChucVu.DisplayMember = "TenCV";
+            cbChucVu.ValueMember = "MaCV";
+            cbChucVu.DataSource = dtChucVu;
         }
         private void addThang(int a)
         {
@@ -75,6 +93,99 @@ namespace ProjectDBMS
             {
                 txtThang.Enabled = false;
                 txtThang.Items.Clear();
+            }
+        }
+
+        private void btnAll_Click(object sender, EventArgs e)
+        {
+            pnlDSThuong.Controls.Clear();
+            DataTable dt = ThuongKhauTruDAO.LayTatCaThuong();
+            foreach (DataRow dr in dt.Rows)
+            {
+                ucThuongNV uc = new ucThuongNV(dr);
+                pnlDSThuong.Controls.Add(uc);
+            }
+        }
+
+        private void cbPhongBan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            pnlDSThuong.Controls.Clear();
+            if(cbPhongBan.Text == "Tất cả")
+            {
+                DataTable dt = ThuongKhauTruDAO.LayTatCaThuong();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucThuongNV uc = new ucThuongNV(row);
+                    pnlDSThuong.Controls.Add(uc);
+                }
+            }
+            else
+            {
+                DataTable dt = ThuongKhauTruDAO.LayThuongTheoPB(int.Parse(cbPhongBan.SelectedValue.ToString()));
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucThuongNV uc = new ucThuongNV(row);
+                    pnlDSThuong.Controls.Add(uc);
+                }
+            }
+        }
+
+        private void cbChucVu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            pnlDSThuong.Controls.Clear();
+            if (cbChucVu.Text == "Tất cả")
+            {
+                DataTable dt = ThuongKhauTruDAO.LayTatCaThuong();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucThuongNV uc = new ucThuongNV(row);
+                    pnlDSThuong.Controls.Add(uc);
+                }
+            }
+            else
+            {
+                DataTable dt = ThuongKhauTruDAO.LayThuongTheoCV(int.Parse(cbChucVu.SelectedValue.ToString()));
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucThuongNV uc = new ucThuongNV(row);
+                    pnlDSThuong.Controls.Add(uc);
+                }
+            }
+        }
+
+        private void cbSX_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Sắp xếp tang dan, giam dan
+            pnlDSThuong.Controls.Clear();
+            if (cbSX.Text == "Tăng dần")
+            {
+                DataTable dt = ThuongKhauTruDAO.LayTatCaThuongTangDan();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucThuongNV uc = new ucThuongNV(row);
+                    pnlDSThuong.Controls.Add(uc);
+                }
+            }
+            else
+            {
+                DataTable dt = ThuongKhauTruDAO.LayTatCaThuongGiamDan();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucThuongNV uc = new ucThuongNV(row);
+                    pnlDSThuong.Controls.Add(uc);
+                }
+            }
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            //Tìm kiếm theo tên
+            pnlDSThuong.Controls.Clear();
+            DataTable dt = ThuongKhauTruDAO.LayThuongTheoKey(txtSearch.Text);
+            foreach (DataRow row in dt.Rows)
+            {
+                ucThuongNV uc = new ucThuongNV(row);
+                pnlDSThuong.Controls.Add(uc);
             }
         }
     }

@@ -70,9 +70,9 @@
             // txtTenPB
             // 
             this.txtTenPB.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenPB.Location = new System.Drawing.Point(264, 8);
+            this.txtTenPB.Location = new System.Drawing.Point(239, 8);
             this.txtTenPB.Name = "txtTenPB";
-            this.txtTenPB.Size = new System.Drawing.Size(80, 25);
+            this.txtTenPB.Size = new System.Drawing.Size(170, 25);
             this.txtTenPB.TabIndex = 3;
             this.txtTenPB.Text = "Phòng 1";
             this.txtTenPB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,9 +80,9 @@
             // txtSoTien
             // 
             this.txtSoTien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTien.Location = new System.Drawing.Point(506, 8);
+            this.txtSoTien.Location = new System.Drawing.Point(556, 9);
             this.txtSoTien.Name = "txtSoTien";
-            this.txtSoTien.Size = new System.Drawing.Size(157, 25);
+            this.txtSoTien.Size = new System.Drawing.Size(138, 25);
             this.txtSoTien.TabIndex = 4;
             this.txtSoTien.Text = "100000 VND";
             this.txtSoTien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,7 +90,7 @@
             // txtTenCV
             // 
             this.txtTenCV.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenCV.Location = new System.Drawing.Point(355, 8);
+            this.txtTenCV.Location = new System.Drawing.Point(415, 9);
             this.txtTenCV.Name = "txtTenCV";
             this.txtTenCV.Size = new System.Drawing.Size(135, 25);
             this.txtTenCV.TabIndex = 5;
@@ -115,9 +115,9 @@
             // txtNgayCapNhat
             // 
             this.txtNgayCapNhat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayCapNhat.Location = new System.Drawing.Point(665, 9);
+            this.txtNgayCapNhat.Location = new System.Drawing.Point(700, 9);
             this.txtNgayCapNhat.Name = "txtNgayCapNhat";
-            this.txtNgayCapNhat.Size = new System.Drawing.Size(157, 25);
+            this.txtNgayCapNhat.Size = new System.Drawing.Size(122, 25);
             this.txtNgayCapNhat.TabIndex = 9;
             this.txtNgayCapNhat.Text = "18/10/2024";
             this.txtNgayCapNhat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

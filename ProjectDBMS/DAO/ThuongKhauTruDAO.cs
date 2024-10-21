@@ -23,12 +23,67 @@ namespace ProjectDBMS.DAO
                 return dt;
             }
         }
+
+        public static DataTable LayTatCaThuongTangDan()
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From V_XemThuong Order by SoTien ASC", connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+
+        public static DataTable LayTatCaThuongGiamDan()
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From V_XemThuong Order by SoTien DESC", connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
         public static DataTable LayTatCaKhauTru()
         {
             using (SqlConnection connection = ConnectDB.GetConnection())
             {
                 connection.Open();
                 SqlCommand command = new SqlCommand("Select * From V_XemKhauTru", connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+        public static DataTable LayTatCaKhauTruTangDan()
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From V_XemKhauTru Order by SoTien ASC", connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+
+        public static DataTable LayTatCaKhauTruGiamDan()
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From V_XemKhauTru Order by SoTien DESC", connection);
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
@@ -84,6 +139,98 @@ namespace ProjectDBMS.DAO
                 int result = command.ExecuteNonQuery();
                 connection.Close();
                 return result > 0;
+            }
+        }
+
+        //lay thuong theo pb
+        public static DataTable LayThuongTheoPB(int maPB)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From fn_LocThuongTheoPhongBan(@MaPB)", connection);
+                command.Parameters.AddWithValue("@MaPB", maPB);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+        //lay thuong theo cv
+        public static DataTable LayThuongTheoCV(int maCV)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From fn_LocThuongTheoChucVu(@MaCV)", connection);
+                command.Parameters.AddWithValue("@MaCV", maCV);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+        //lay thuong theo key
+        public static DataTable LayThuongTheoKey(string key)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From fn_TimKiemThuong(@Key)", connection);
+                command.Parameters.AddWithValue("@Key", key);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+        //lay khau tru theo pb
+        public static DataTable LayKhauTruTheoPB(int maPB)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From fn_LocKhauTruTheoPhongBan(@MaPB)", connection);
+                command.Parameters.AddWithValue("@MaPB", maPB);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+
+        //lay khau tru theo cv
+        public static DataTable LayKhauTruTheoCV(int maCV)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From fn_LocKhauTruTheoChucVu(@MaCV)", connection);
+                command.Parameters.AddWithValue("@MaCV", maCV);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
+        //lay khau tru theo key
+        public static DataTable LayKhauTruTheoKey(string key)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * From fn_TimKiemKhauTru(@Key)", connection);
+                command.Parameters.AddWithValue("@Key", key);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
             }
         }
     }

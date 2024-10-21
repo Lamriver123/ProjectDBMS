@@ -131,5 +131,29 @@ namespace ProjectDBMS
                 pnlNhanVien.Controls.Add(uc);
             }
         }
+
+        private void cbSX_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //sap xep theo luong tang dan, giam dan
+            pnlNhanVien.Controls.Clear();
+            if (cbSX.Text == "Lương tăng dần")
+            {
+                DataTable dt = DAO.NhanVienDAO.LayTatCaNhanVienLuongTangDan();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucNhanVien uc = new ucNhanVien(row);
+                    pnlNhanVien.Controls.Add(uc);
+                }
+            }
+            else
+            {
+                DataTable dt = DAO.NhanVienDAO.LayTatCaNhanVienLuongGiamDan();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ucNhanVien uc = new ucNhanVien(row);
+                    pnlNhanVien.Controls.Add(uc);
+                }
+            }
+        }
     }
 }
