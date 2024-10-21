@@ -80,9 +80,9 @@
             // 
             this.guna2CirclePictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuItem;
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.Image = global::ProjectDBMS.Properties.Resources.LAM;
+            this.guna2CirclePictureBox1.Image = global::ProjectDBMS.Properties.Resources.icons8_avatar_100;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(29, 8);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(29, 10);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(64, 64);

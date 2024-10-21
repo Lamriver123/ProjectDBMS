@@ -21,12 +21,48 @@ namespace ProjectDBMS
                 ucPhatNV uc = new ucPhatNV(dr);
                 pnlDSPhat.Controls.Add(uc);
             }
+            txtNam.Text = DateTime.Now.Year.ToString();
+            addThang(DateTime.Now.Month);
         }
-
+        private void addThang(int a)
+        {
+            txtThang.Items.Clear();
+            for (int i = 1; i <= a; i++)
+            {
+                txtThang.Items.Add(i);
+                txtThang.Enabled = true;
+            }
+        }
         private void btnThemPhat_Click(object sender, EventArgs e)
         {
             Form form = new fThemPhat();
             form.ShowDialog();
+        }
+
+        private void txtNam_TextChanged(object sender, EventArgs e)
+        {
+            int num = 1;
+            if (txtNam.Text != "" && int.TryParse(txtNam.Text, out num) && int.Parse(txtNam.Text) > 0)
+            {
+                if (txtNam.Text == DateTime.Now.Year.ToString())
+                {
+                    addThang(DateTime.Now.Month);
+                }
+                else if (int.Parse(txtNam.Text) < DateTime.Now.Year)
+                {
+                    addThang(12);
+                }
+                else
+                {
+                    txtThang.Enabled = false;
+                    txtThang.Items.Clear();
+                }
+            }
+            else
+            {
+                txtThang.Enabled = false;
+                txtThang.Items.Clear();
+            }
         }
     }
 }

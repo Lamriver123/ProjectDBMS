@@ -47,6 +47,10 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnThemPhat = new Guna.UI2.WinForms.Guna2Button();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtThang = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtNam = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -361,12 +365,95 @@
             this.btnTimKiem.TabIndex = 19;
             this.btnTimKiem.UseTransparentBackground = true;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(724, 51);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(52, 20);
+            this.label10.TabIndex = 61;
+            this.label10.Text = "Tháng";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(573, 52);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(43, 20);
+            this.label11.TabIndex = 60;
+            this.label11.Text = "Năm";
+            // 
+            // txtThang
+            // 
+            this.txtThang.BackColor = System.Drawing.Color.Transparent;
+            this.txtThang.BorderColor = System.Drawing.Color.Silver;
+            this.txtThang.BorderThickness = 2;
+            this.txtThang.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtThang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtThang.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtThang.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtThang.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtThang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtThang.ItemHeight = 30;
+            this.txtThang.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
+            this.txtThang.Location = new System.Drawing.Point(722, 74);
+            this.txtThang.Name = "txtThang";
+            this.txtThang.Size = new System.Drawing.Size(125, 36);
+            this.txtThang.StartIndex = 9;
+            this.txtThang.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtThang.TabIndex = 59;
+            // 
+            // txtNam
+            // 
+            this.txtNam.BorderColor = System.Drawing.Color.Silver;
+            this.txtNam.BorderThickness = 2;
+            this.txtNam.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNam.DefaultText = "2024";
+            this.txtNam.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtNam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtNam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNam.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNam.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNam.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNam.ForeColor = System.Drawing.Color.Black;
+            this.txtNam.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNam.Location = new System.Drawing.Point(567, 69);
+            this.txtNam.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNam.Name = "txtNam";
+            this.txtNam.PasswordChar = '\0';
+            this.txtNam.PlaceholderText = "Nhập năm";
+            this.txtNam.SelectedText = "";
+            this.txtNam.Size = new System.Drawing.Size(128, 41);
+            this.txtNam.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtNam.TabIndex = 58;
+            this.txtNam.TextChanged += new System.EventHandler(this.txtNam_TextChanged);
+            // 
             // fThongKeTru
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1124, 792);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtThang);
+            this.Controls.Add(this.txtNam);
             this.Controls.Add(this.btnThemPhat);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.btnTimKiem);
@@ -404,5 +491,9 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.FlowLayoutPanel pnlDSPhat;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private Guna.UI2.WinForms.Guna2ComboBox txtThang;
+        private Guna.UI2.WinForms.Guna2TextBox txtNam;
     }
 }

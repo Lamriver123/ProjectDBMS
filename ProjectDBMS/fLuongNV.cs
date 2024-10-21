@@ -18,8 +18,18 @@ namespace ProjectDBMS
         public fLuongNV()
         {
             InitializeComponent();
+            txtNam.Text = DateTime.Now.Year.ToString();
+            addThang(DateTime.Now.Month);
         }
-        
+        private void addThang(int a)
+        {
+            txtThang.Items.Clear();
+            for (int i = 1; i <= a; i++)
+            {
+                txtThang.Items.Add(i);
+                txtThang.Enabled = true;
+            }
+        }
         private void btnDanhSach_Click(object sender, EventArgs e)
         {
             btnDanhSach.CustomBorderColor = Color.FromArgb(88, 69, 194);
@@ -68,22 +78,11 @@ namespace ProjectDBMS
             {
                 if (txtNam.Text == DateTime.Now.Year.ToString())
                 {
-                    txtThang.Items.Clear();
-                    int tmp = DateTime.Now.Month;
-                    for (int i = 1; i <= tmp; i++)
-                    {
-                        txtThang.Items.Add(i);
-                        txtThang.Enabled = true;
-                    }
+                    addThang(DateTime.Now.Month);
                 }
                 else if (int.Parse(txtNam.Text) < DateTime.Now.Year)
                 {
-                    txtThang.Items.Clear();
-                    for (int i = 1; i <= 12; i++)
-                    {
-                        txtThang.Items.Add(i);
-                        txtThang.Enabled = true;
-                    }
+                    addThang(12);
                 }
                 else
                 {

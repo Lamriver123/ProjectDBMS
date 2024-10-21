@@ -9,7 +9,7 @@ namespace ProjectDBMS
 {
     internal class ConnectDB
     {
-        static string connectionString = "Data Source=MSI;Initial Catalog=QUAN_LY_LUONG;Integrated Security=True";
+        static string connectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=QUAN_LY_LUONG;Integrated Security=True";
 
         static public SqlConnection GetConnection()
         {
