@@ -277,5 +277,63 @@ namespace ProjectDBMS.DAO
 
             }
         }
+        //lay thong tin nhan vien theo manv
+        public static DataRow LayThongTinNhanVienTheoMaNV(int maNV)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("proc_XemThongTinCaNhan", connection);
+
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@MaNV", maNV);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt.Rows[0];
+
+            }
+        }
+        //chi tiet luong nhan vien theo ma nhan vien
+        public static DataRow LayChiTietLuongNhanVienTheoMaNV(int maNV, DateTime ngay)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("proc_ChiTietLuongNhanVien", connection);
+
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@MaNV", maNV);
+
+                command.Parameters.AddWithValue("@ngay", ngay);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt.Rows[0];
+
+            }
+        }
     }
 }

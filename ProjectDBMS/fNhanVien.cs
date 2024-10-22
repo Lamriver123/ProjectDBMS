@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectDBMS.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +24,9 @@ namespace ProjectDBMS
             btnThongTinCaNhan.FillColor = Color.FromArgb(128, 128, 255);
             btnThongTinLuong.FillColor = Color.Transparent;
 
-            Form fChild = new fThongTinCaNhan();
+            DataRow dr = NhanVienDAO.LayThongTinNhanVienTheoMaNV(fDangNhap.MaNV);
+
+            Form fChild = new fThongTinCaNhan(dr);
             AddChild(fChild);
         }
         private void AddChild(Form Child)
@@ -50,7 +53,9 @@ namespace ProjectDBMS
             btnThongTinLuong.FillColor = Color.FromArgb(128, 128, 255);
             btnThongTinCaNhan.FillColor = Color.Transparent;
 
-            Form fChild = new fThongTinLuong();
+            DataRow dr =  NhanVienDAO.LayChiTietLuongNhanVienTheoMaNV(fDangNhap.MaNV,DateTime.Now);
+
+            Form fChild = new fThongTinLuong(dr);
             AddChild(fChild);
         }
 

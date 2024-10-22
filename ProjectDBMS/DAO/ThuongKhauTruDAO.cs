@@ -233,5 +233,21 @@ namespace ProjectDBMS.DAO
                 return dt;
             }
         }
+
+        //Xem thuong khau tru theo maNV
+        public static DataTable XemThuongKhauTruTheoMaNV(int maNV)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("Select * from fn_XemThuongVaKhauTru_NV(@MaNV)", connection);
+                command.Parameters.AddWithValue("@MaNV", maNV);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                connection.Close();
+                return dt;
+            }
+        }
     }
 }

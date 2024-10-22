@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectDBMS.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,41 @@ namespace ProjectDBMS
             InitializeComponent();
             txtNam.Text = DateTime.Now.Year.ToString();
             addThang(DateTime.Now.Month);
+        }
+
+        public fThongTinLuong(DataRow dr)
+        {
+            InitializeComponent();
+            txtNam.Text = DateTime.Now.Year.ToString();
+            addThang(DateTime.Now.Month);
+            lblMaNV.Text = dr["MaNV"].ToString();   
+            txtHoTen.Text = dr["HoTen"].ToString();
+            txtTenPB.Text = dr["TenPB"].ToString();
+            txtTenCV.Text = dr["TenCV"].ToString();
+            txtLuongCoBan.Text = dr["LuongCoBan"].ToString();
+            txtTongThuong.Text = dr["TongThuong"].ToString();
+            txtTongKT.Text = dr["TongKT"].ToString();
+            lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
+
+
+            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(int.Parse(dr["MaNV"].ToString()));
+            DataTable dtThuong = dt.Clone();
+            DataTable dtKhauTru = dt.Clone();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                if (row["PhanLoai"].ToString() == "Thưởng")
+                {
+                    dtThuong.ImportRow(row);
+                }
+                else if (row["PhanLoai"].ToString() == "Khấu trừ")
+                {
+                    dtKhauTru.ImportRow(row);
+                }
+            }
+
+            dgvThuong.DataSource = dtThuong;
+            dgvKT.DataSource = dtKhauTru;
         }
 
         private void addThang(int a)
@@ -54,6 +90,21 @@ namespace ProjectDBMS
             }
         }
 
+        private void txtThang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int nam = int.Parse(txtNam.Text);
+            int thang = int.Parse(txtThang.Text);
+            DateTime ngay = new DateTime(nam, thang, 1);
+            DataRow dr = DAO.NhanVienDAO.LayChiTietLuongNhanVienTheoMaNV(int.Parse(lblMaNV.Text), ngay);
+            lblMaNV.Text = dr["MaNV"].ToString();
+            txtHoTen.Text = dr["HoTen"].ToString();
+            txtTenPB.Text = dr["TenPB"].ToString();
+            txtTenCV.Text = dr["TenCV"].ToString();
+            txtLuongCoBan.Text = dr["LuongCoBan"].ToString();
+            txtTongThuong.Text = dr["TongThuong"].ToString();
+            txtTongKT.Text = dr["TongKT"].ToString();
+            lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
+        }
     }
 
 }

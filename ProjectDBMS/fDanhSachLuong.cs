@@ -23,10 +23,12 @@ namespace ProjectDBMS
                 pnlDSLuong.Controls.Add(uc);
             }
         }
+        DateTime Ngay = DateTime.Now;
 
         public void CapNhatNgay(DateTime ngay)
         {
             pnlDSLuong.Controls.Clear();
+            Ngay = ngay;
             DataTable dt = LuongDAO.LayLuongThucNhanTheoNgay(ngay);
             foreach (DataRow dr in dt.Rows)
             {
@@ -41,7 +43,7 @@ namespace ProjectDBMS
             pnlDSLuong.Controls.Clear();
             if (cbSX.Text== "Lương tăng dần")
             {
-                DataTable dt = LuongDAO.LayLuongThucNhanTangDan(DateTime.Now);
+                DataTable dt = LuongDAO.LayLuongThucNhanTangDan(Ngay);
                 foreach (DataRow dr in dt.Rows)
                 {
                     ucLuongNV uc = new ucLuongNV(dr);
@@ -50,7 +52,7 @@ namespace ProjectDBMS
             }
             else
             {
-                DataTable dt = LuongDAO.LayLuongThucNhanGiamDan(DateTime.Now);
+                DataTable dt = LuongDAO.LayLuongThucNhanGiamDan(Ngay);
                 foreach (DataRow dr in dt.Rows)
                 {
                     ucLuongNV uc = new ucLuongNV(dr);

@@ -17,11 +17,21 @@ namespace ProjectDBMS
             InitializeComponent();
         }
 
+        public static int MaNV =-1;
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form form = new fQuanLy();
-            form.ShowDialog();
+            if(txtUserName.Text == "ad")
+            {
+                Form form = new fQuanLy();
+                form.ShowDialog();
+            }
+            else
+            {
+                Form form = new fNhanVien();
+                MaNV = int.Parse(txtUserName.Text);
+                form.ShowDialog();
+            }
             this.Show();
         }
 
