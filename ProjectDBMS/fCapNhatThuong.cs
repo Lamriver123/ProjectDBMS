@@ -41,5 +41,10 @@ namespace ProjectDBMS
                 MessageBox.Show("Cập nhật thất bại");
             }
         }
+
+        private void btnDong_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

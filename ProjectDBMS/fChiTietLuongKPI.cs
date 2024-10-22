@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectDBMS
 {
-    public partial class fChiTietLuong : Form
+    public partial class fChiTietLuongKPI : Form
     {
-        public fChiTietLuong()
+        public fChiTietLuongKPI()
         {
             InitializeComponent();
         }

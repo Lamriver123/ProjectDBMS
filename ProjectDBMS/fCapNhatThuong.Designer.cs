@@ -230,6 +230,7 @@
             this.btnDong.Size = new System.Drawing.Size(153, 30);
             this.btnDong.TabIndex = 62;
             this.btnDong.Text = "Đóng";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // fCapNhatThuong
             // 
@@ -250,7 +251,7 @@
             this.Controls.Add(this.label6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "fCapNhatThuong";
-            this.Text = "fCapNhatThuong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.ResumeLayout(false);
             this.PerformLayout();
 

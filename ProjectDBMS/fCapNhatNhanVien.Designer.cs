@@ -48,9 +48,9 @@
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnDong = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBoxUser = new System.Windows.Forms.PictureBox();
             this.btnCapNhat = new Guna.UI2.WinForms.Guna2Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBoxUser = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUser)).BeginInit();
             this.SuspendLayout();
@@ -394,18 +394,7 @@
             this.btnDong.Size = new System.Drawing.Size(140, 45);
             this.btnDong.TabIndex = 43;
             this.btnDong.Text = "Đóng";
-            // 
-            // pictureBoxUser
-            // 
-            this.pictureBoxUser.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxUser.Image = global::ProjectDBMS.Properties.Resources.icons8_avatar_100;
-            this.pictureBoxUser.Location = new System.Drawing.Point(689, 116);
-            this.pictureBoxUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBoxUser.Name = "pictureBoxUser";
-            this.pictureBoxUser.Size = new System.Drawing.Size(186, 175);
-            this.pictureBoxUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxUser.TabIndex = 42;
-            this.pictureBoxUser.TabStop = false;
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnCapNhat
             // 
@@ -434,6 +423,18 @@
             this.label11.TabIndex = 46;
             this.label11.Text = "Cập nhật nhân viên";
             // 
+            // pictureBoxUser
+            // 
+            this.pictureBoxUser.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxUser.Image = global::ProjectDBMS.Properties.Resources.icons8_avatar_100;
+            this.pictureBoxUser.Location = new System.Drawing.Point(689, 116);
+            this.pictureBoxUser.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxUser.Name = "pictureBoxUser";
+            this.pictureBoxUser.Size = new System.Drawing.Size(186, 175);
+            this.pictureBoxUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxUser.TabIndex = 42;
+            this.pictureBoxUser.TabStop = false;
+            // 
             // fCapNhatNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -445,7 +446,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "fCapNhatNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "fCapNhatNhanVien";
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUser)).EndInit();

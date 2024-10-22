@@ -73,5 +73,10 @@ namespace ProjectDBMS
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnDong_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

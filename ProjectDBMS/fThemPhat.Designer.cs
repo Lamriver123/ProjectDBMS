@@ -288,7 +288,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "fThemPhat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "fThemThuong";
             this.ResumeLayout(false);
             this.PerformLayout();
 

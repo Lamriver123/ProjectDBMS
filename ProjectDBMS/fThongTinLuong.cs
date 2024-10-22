@@ -73,7 +73,7 @@ namespace ProjectDBMS
                 {
                     addThang(DateTime.Now.Month);
                 }
-                else if (int.Parse(txtNam.Text) < DateTime.Now.Year)
+                else if (int.Parse(txtNam.Text) < DateTime.Now.Year && int.Parse(txtNam.Text) > 2000)
                 {
                     addThang(12);
                 }
