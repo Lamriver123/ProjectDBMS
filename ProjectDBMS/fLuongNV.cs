@@ -68,7 +68,16 @@ namespace ProjectDBMS
         {
             DateTime ngay = new DateTime(int.Parse(txtNam.Text), int.Parse(txtThang.Text), 1);
             fDanhSachLuong ds = pTrang.Controls[0] as fDanhSachLuong;
-            ds.CapNhatNgay(ngay);
+            fThongKeLuong tk = pTrang.Controls[0] as fThongKeLuong;
+            if (ds != null)
+            {
+                ds.CapNhatNgay(ngay);
+            }
+            else
+            {
+                tk.Load();
+                fDanhSachLuong.Ngay = ngay;
+            }
         }
 
         private void txtNam_TextChanged(object sender, EventArgs e)

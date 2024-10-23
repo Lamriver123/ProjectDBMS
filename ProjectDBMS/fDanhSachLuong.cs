@@ -41,7 +41,7 @@ namespace ProjectDBMS
             cbCV.ValueMember = "MaCV";
             cbCV.DataSource = dtChucVu;
         }
-        DateTime Ngay = DateTime.Now;
+        public static DateTime Ngay = DateTime.Now;
 
         public void CapNhatNgay(DateTime ngay)
         {

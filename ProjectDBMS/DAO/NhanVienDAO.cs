@@ -335,5 +335,34 @@ namespace ProjectDBMS.DAO
 
             }
         }
+
+        //Danh sach top nhan vien lam nhieu gio nhat
+        public static DataTable DanhSachTopNhanVienLamNhieuGioNhat(DateTime ngay)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("proc_NhanVienCoGioLamNhieuNhat", connection);
+
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@ngay", ngay);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
     }
 }

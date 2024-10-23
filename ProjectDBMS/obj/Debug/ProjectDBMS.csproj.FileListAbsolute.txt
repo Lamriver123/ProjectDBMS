@@ -249,3 +249,7 @@ G:\HK1_Nam3\DBMS\Project\2210DBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuo
 G:\HK1_Nam3\DBMS\Project\2210DBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuongKPI.resources
 G:\HK1_Nam3\DBMS\Project\2210DBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuongTheoGio.resources
 G:\HK1_Nam3\DBMS\Project\2210DBMS\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuongTheoGio.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\work\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuongKPI.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\work\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuongTheoGio.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\work\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuongKPI.resources
+F:\Dai Hoc\Nam3\DBMS\ket noi database quan ly\work\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuongTheoGio.resources
