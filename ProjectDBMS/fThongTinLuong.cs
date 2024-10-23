@@ -8,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace ProjectDBMS
 {
     public partial class fThongTinLuong : Form
     {
+        private int MaNV;
         public fThongTinLuong()
         {
             InitializeComponent();
@@ -33,9 +35,9 @@ namespace ProjectDBMS
             txtTongThuong.Text = dr["TongThuong"].ToString();
             txtTongKT.Text = dr["TongKT"].ToString();
             lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
+            MaNV = int.Parse(dr["MaNV"].ToString());
 
-
-            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(int.Parse(dr["MaNV"].ToString()));
+            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(MaNV);
             DataTable dtThuong = dt.Clone();
             DataTable dtKhauTru = dt.Clone();
 
@@ -53,6 +55,47 @@ namespace ProjectDBMS
 
             dgvThuong.DataSource = dtThuong;
             dgvKT.DataSource = dtKhauTru;
+
+            Series seriesLuong = new Series
+            {
+                Name = "Luong",
+                IsVisibleInLegend = true,
+                ChartType = SeriesChartType.Column
+            };
+            BieuDoTKLuong.Series.Add(seriesLuong);
+            LoadBieuDoLuongTheoThang(MaNV);
+
+            Series seriesTKT = new Series
+            {
+                Name = "TKT",
+                IsVisibleInLegend = true,
+                ChartType = SeriesChartType.Column
+            };
+            BieuDoTKT.Series.Add(seriesTKT);
+            LoadBieuDoTKT(MaNV);
+        }
+
+        private void LoadBieuDoTKT(int MaNV)
+        {
+            BieuDoTKT.Series["TKT"].Points.Clear();
+            int nam = int.Parse(txtNam.Text);
+            int thangHienTai = DateTime.Now.Month;
+            DataTable dt = DAO.NhanVienDAO.LayTKTNhanVienTheoNam(MaNV, nam, cbTKT.Text);
+            foreach (DataRow dr in dt.Rows)
+            {
+                BieuDoTKT.Series["TKT"].Points.AddXY(dr["Thang"], dr["SoTien"]);
+            }
+        }
+        private void LoadBieuDoLuongTheoThang(int MaNV)
+        {
+            BieuDoTKLuong.Series["Luong"].Points.Clear();
+            int nam = int.Parse(txtNam.Text);
+            int thangHienTai = DateTime.Now.Month;
+            DataTable dt = DAO.NhanVienDAO.LayLuongNhanVienTheoNam(MaNV, nam, thangHienTai);
+            foreach (DataRow dr in dt.Rows)
+            {
+                BieuDoTKLuong.Series["Luong"].Points.AddXY(dr["Thang"], dr["LuongThucNhan"]);
+            }
         }
 
         private void addThang(int a)
@@ -66,6 +109,10 @@ namespace ProjectDBMS
         }
         private void txtNam_TextChanged(object sender, EventArgs e)
         {
+            lblTKTheoNam.Text = "Thống kê lương năm " + txtNam.Text;
+            lblTKThuongKhauTruTheoNam.Text = "Thống kê thưởng, khấu trừ năm " + txtNam.Text;
+            LoadBieuDoLuongTheoThang(MaNV);
+            LoadBieuDoTKT(MaNV);
             int num = 1;
             if (txtNam.Text != "" && int.TryParse(txtNam.Text, out num) && int.Parse(txtNam.Text) > 0)
             {
@@ -104,6 +151,11 @@ namespace ProjectDBMS
             txtTongThuong.Text = dr["TongThuong"].ToString();
             txtTongKT.Text = dr["TongKT"].ToString();
             lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
+        }
+
+        private void cbTKT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadBieuDoTKT(MaNV);
         }
     }
 

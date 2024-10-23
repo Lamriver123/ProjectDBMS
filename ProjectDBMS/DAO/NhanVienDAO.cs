@@ -364,5 +364,63 @@ namespace ProjectDBMS.DAO
 
             }
         }
+        public static DataTable LayLuongNhanVienTheoNam(int maNV, int nam, int thang)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("select * from fn_LuongThucNhanTheoNam(@MaNV, @Nam, @Thang)", connection);
+
+
+                command.Parameters.AddWithValue("@MaNV", maNV);
+
+                command.Parameters.AddWithValue("@Nam", nam);
+
+                command.Parameters.AddWithValue("@Thang", thang);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+
+            }
+        }
+        
+        public static DataTable LayTKTNhanVienTheoNam(int maNV, int nam, string loai)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("select * from fn_TKThuongKhauTruTheoNam_NV(@MaNV, @Nam, @Loai)", connection);
+                command.Parameters.AddWithValue("@MaNV", maNV);
+
+                command.Parameters.AddWithValue("@Nam", nam);
+
+                command.Parameters.AddWithValue("@Loai", loai);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt;
+            }
+        }
     }
 }
