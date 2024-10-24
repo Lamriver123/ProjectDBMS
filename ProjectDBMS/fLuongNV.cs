@@ -75,8 +75,8 @@ namespace ProjectDBMS
             }
             else
             {
-                tk.Load();
                 fDanhSachLuong.Ngay = ngay;
+                tk.Load();
             }
         }
 

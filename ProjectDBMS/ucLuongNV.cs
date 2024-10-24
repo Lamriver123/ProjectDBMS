@@ -26,13 +26,13 @@ namespace ProjectDBMS
             txtLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
             txtTenCV.Text = dr["TenCV"].ToString();
             txtTenPB.Text = dr["TenPB"].ToString();
-            lblSTT.Text = dr["MaNV"].ToString();
+            lblMaNV.Text = dr["MaNV"].ToString();
             btnAvt.FillColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
             btnAvt.Text = dr["HoTen"].ToString().Substring(0, 1);
         }
         private void guna2ImageButton2_Click(object sender, EventArgs e)
         {
-            Form form = new fChiTietLuong();
+            Form form = new fChiTietLuong(int.Parse(lblMaNV.Text));
             form.ShowDialog();
         }
 
