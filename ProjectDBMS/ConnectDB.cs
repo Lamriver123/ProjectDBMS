@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectDBMS.DAO;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -9,11 +10,19 @@ namespace ProjectDBMS
 {
     internal class ConnectDB
     {
-        static string connectionString = "Data Source=MSI;Initial Catalog=QUAN_LY_LUONG;Integrated Security=True;Encrypt=False;";
-
+        static string connectStringNhanvien = "Data Source=MSI;Initial Catalog=QUAN_LY_LUONG;Persist Security Info=True;User ID=NhanVienLogin;Password=123;Encrypt=False;";
+        static string connectStringQuanLy = "Data Source=MSI;Initial Catalog=QUAN_LY_LUONG;Persist Security Info=True;User ID=QuanLyLogin;Password=123;Encrypt=False;";
         static public SqlConnection GetConnection()
         {
-            return new SqlConnection(connectionString);
+            if(fDangNhap.role == 0)
+            {
+                return new SqlConnection(connectStringQuanLy);
+            }
+            else if (fDangNhap.role == 1)
+            {
+                return new SqlConnection(connectStringNhanvien);
+            }
+            return null;
         }
     }
 }
