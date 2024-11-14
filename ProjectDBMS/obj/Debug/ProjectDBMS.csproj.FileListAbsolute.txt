@@ -327,3 +327,40 @@ F:\Dai Hoc\Nam3\DBMS\Cuoi ky\tesst\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.Core
 F:\Dai Hoc\Nam3\DBMS\Cuoi ky\tesst\ProjectDBMS\obj\Debug\ProjectD.E927F7DD.Up2Date
 F:\Dai Hoc\Nam3\DBMS\Cuoi ky\tesst\ProjectDBMS\obj\Debug\ProjectDBMS.exe
 F:\Dai Hoc\Nam3\DBMS\Cuoi ky\tesst\ProjectDBMS\obj\Debug\ProjectDBMS.pdb
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\bin\Debug\ProjectDBMS.exe.config
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\bin\Debug\ProjectDBMS.exe
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\bin\Debug\ProjectDBMS.pdb
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\bin\Debug\Guna.UI2.dll
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.AssemblyReference.cache
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fCapNhatKhauTru.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fCapNhatNhanVien.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fCapNhatThuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuongKPI.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fChiTietLuongTheoGio.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fDangNhap.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fDanhSachLuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fDanhSachNV.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fLuongNV.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fNhanVien.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fQuanLy.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThemNhanVien.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThemPhat.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThemThuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeLuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeThuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongKeTru.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinCaNhan.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuong.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuongKPI.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.fThongTinLuongTheoGio.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.Properties.Resources.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.ucLuongNV.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.ucNhanVien.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.ucPhatNV.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.ucThuongNV.resources
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.GenerateResource.cache
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.CoreCompileInputs.cache
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.csproj.CopyComplete
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.exe
+G:\HK1_Nam3\DBMS\Project\final\ProjectDBMS\obj\Debug\ProjectDBMS.pdb

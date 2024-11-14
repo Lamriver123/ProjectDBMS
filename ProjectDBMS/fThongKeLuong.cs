@@ -21,6 +21,7 @@ namespace ProjectDBMS
             DataTable dtPB =  PhongBanDAO.TongThuNhapTheoPhongBan(fDanhSachLuong.Ngay);
             DataTable dtCV = ChucVuDAO.TongThuNhapTheoChucVu(fDanhSachLuong.Ngay);
             DataTable dtTop = NhanVienDAO.DanhSachTopNhanVienLamNhieuGioNhat(fDanhSachLuong.Ngay);
+            DataTable dtTienBo = NhanVienDAO.DanhSachTopNhanVienTienBo(fDanhSachLuong.Ngay);
             //tao bieu do tron
             Series seriesPB = new Series
             {
@@ -48,6 +49,10 @@ namespace ProjectDBMS
             chartCV.Series["Thu nhập"]["PieLabelStyle"] = "Disabled";
             //Top 5
             dgvTop5.DataSource = dtTop;
+
+            //Top5 nhan vien tien bo
+            dgvTienBo.DataSource = dtTienBo;
+
         }
 
         public void Load()
@@ -55,6 +60,7 @@ namespace ProjectDBMS
             DataTable dtPB = PhongBanDAO.TongThuNhapTheoPhongBan(fDanhSachLuong.Ngay);
             DataTable dtCV = ChucVuDAO.TongThuNhapTheoChucVu(fDanhSachLuong.Ngay);
             DataTable dtTop = NhanVienDAO.DanhSachTopNhanVienLamNhieuGioNhat(fDanhSachLuong.Ngay);
+            DataTable dtTienBo = NhanVienDAO.DanhSachTopNhanVienTienBo(fDanhSachLuong.Ngay);
             chartPB.Series["Thu nhập"].Points.Clear();
             chartCV.Series["Thu nhập"].Points.Clear();
             foreach (DataRow dr in dtPB.Rows)
@@ -68,6 +74,7 @@ namespace ProjectDBMS
             }
             chartCV.Series["Thu nhập"]["PieLabelStyle"] = "Disabled";
             dgvTop5.DataSource = dtTop;
+            dgvTienBo.DataSource = dtTienBo;
         }
     }
 }
