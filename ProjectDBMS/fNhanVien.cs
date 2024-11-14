@@ -52,11 +52,23 @@ namespace ProjectDBMS
         {
             btnThongTinLuong.FillColor = Color.FromArgb(128, 128, 255);
             btnThongTinCaNhan.FillColor = Color.Transparent;
-
             DataRow dr =  NhanVienDAO.LayChiTietLuongNhanVienTheoMaNV(fDangNhap.MaNV,DateTime.Now);
-
-            Form fChild = new fThongTinLuong(dr);
-            AddChild(fChild);
+            String loaiCV = NhanVienDAO.LayLoaiChucVu(fDangNhap.MaNV);
+            if (loaiCV == "Tháng")
+            {
+                Form fChild = new fThongTinLuong(dr);
+                AddChild(fChild);
+            }
+            else if (loaiCV == "Chỉ tiêu")
+            {
+                Form fChild = new fThongTinLuongKPI(dr);
+                AddChild(fChild);
+            }
+            else
+            {
+                Form fChild = new fThongTinLuongTheoGio(dr);
+                AddChild(fChild);
+            }
         }
 
         private void fNhanVien_Load(object sender, EventArgs e)

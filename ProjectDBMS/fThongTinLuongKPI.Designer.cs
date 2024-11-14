@@ -42,8 +42,12 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblTieuDe = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label111 = new System.Windows.Forms.Label();
+            this.txtLuongCoBan = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtSanPhamLamDuoc = new Guna.UI2.WinForms.Guna2TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.txtTongKT = new Guna.UI2.WinForms.Guna2TextBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -66,50 +70,47 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label8 = new System.Windows.Forms.Label();
+            this.BieuDoTKLuong = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.lblTKTheoNam = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtThang = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtNam = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblTKThuongKhauTruTheoNam = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtGioLam = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtLuongCoBan = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.BieuDoTKT = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.cbTKT = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThuong)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKLuong)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKT)).BeginInit();
             this.SuspendLayout();
             // 
-            // label11
+            // lblTieuDe
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(17, 26);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(230, 19);
-            this.label11.TabIndex = 51;
-            this.label11.Text = "Chi tiết Lương tháng 10/ 2024";
+            this.lblTieuDe.AutoSize = true;
+            this.lblTieuDe.BackColor = System.Drawing.Color.Transparent;
+            this.lblTieuDe.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTieuDe.Location = new System.Drawing.Point(17, 26);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(230, 19);
+            this.lblTieuDe.TabIndex = 51;
+            this.lblTieuDe.Text = "Chi tiết Lương tháng 10/ 2024";
             // 
             // guna2CustomGradientPanel1
             // 
+            this.guna2CustomGradientPanel1.AutoScroll = true;
             this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel1.BorderRadius = 5;
             this.guna2CustomGradientPanel1.BorderThickness = 1;
+            this.guna2CustomGradientPanel1.Controls.Add(this.label111);
             this.guna2CustomGradientPanel1.Controls.Add(this.txtLuongCoBan);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2TextBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.label3);
-            this.guna2CustomGradientPanel1.Controls.Add(this.txtGioLam);
+            this.guna2CustomGradientPanel1.Controls.Add(this.txtSanPhamLamDuoc);
             this.guna2CustomGradientPanel1.Controls.Add(this.label19);
             this.guna2CustomGradientPanel1.Controls.Add(this.txtTongKT);
             this.guna2CustomGradientPanel1.Controls.Add(this.label18);
@@ -139,6 +140,78 @@
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(676, 683);
             this.guna2CustomGradientPanel1.TabIndex = 50;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.BackColor = System.Drawing.Color.Transparent;
+            this.label111.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(343, 129);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(106, 20);
+            this.label111.TabIndex = 76;
+            this.label111.Text = "Lương cơ bản";
+            // 
+            // txtLuongCoBan
+            // 
+            this.txtLuongCoBan.BorderColor = System.Drawing.Color.Silver;
+            this.txtLuongCoBan.BorderThickness = 2;
+            this.txtLuongCoBan.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtLuongCoBan.DefaultText = "30000 VND";
+            this.txtLuongCoBan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtLuongCoBan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtLuongCoBan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtLuongCoBan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtLuongCoBan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtLuongCoBan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLuongCoBan.ForeColor = System.Drawing.Color.Black;
+            this.txtLuongCoBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtLuongCoBan.Location = new System.Drawing.Point(340, 152);
+            this.txtLuongCoBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLuongCoBan.Name = "txtLuongCoBan";
+            this.txtLuongCoBan.PasswordChar = '\0';
+            this.txtLuongCoBan.PlaceholderText = "";
+            this.txtLuongCoBan.ReadOnly = true;
+            this.txtLuongCoBan.SelectedText = "";
+            this.txtLuongCoBan.Size = new System.Drawing.Size(284, 36);
+            this.txtLuongCoBan.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtLuongCoBan.TabIndex = 75;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(343, 201);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(167, 20);
+            this.label3.TabIndex = 74;
+            this.label3.Text = "Số sản phẩm làm được";
+            // 
+            // txtSanPhamLamDuoc
+            // 
+            this.txtSanPhamLamDuoc.BorderColor = System.Drawing.Color.Silver;
+            this.txtSanPhamLamDuoc.BorderThickness = 2;
+            this.txtSanPhamLamDuoc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSanPhamLamDuoc.DefaultText = "30";
+            this.txtSanPhamLamDuoc.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSanPhamLamDuoc.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSanPhamLamDuoc.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSanPhamLamDuoc.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSanPhamLamDuoc.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSanPhamLamDuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSanPhamLamDuoc.ForeColor = System.Drawing.Color.Black;
+            this.txtSanPhamLamDuoc.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSanPhamLamDuoc.Location = new System.Drawing.Point(340, 224);
+            this.txtSanPhamLamDuoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSanPhamLamDuoc.Name = "txtSanPhamLamDuoc";
+            this.txtSanPhamLamDuoc.PasswordChar = '\0';
+            this.txtSanPhamLamDuoc.PlaceholderText = "";
+            this.txtSanPhamLamDuoc.ReadOnly = true;
+            this.txtSanPhamLamDuoc.SelectedText = "";
+            this.txtSanPhamLamDuoc.Size = new System.Drawing.Size(284, 36);
+            this.txtSanPhamLamDuoc.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtSanPhamLamDuoc.TabIndex = 73;
             // 
             // label19
             // 
@@ -419,9 +492,9 @@
             this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(51, 201);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(187, 20);
+            this.label14.Size = new System.Drawing.Size(161, 20);
             this.label14.TabIndex = 59;
-            this.label14.Text = "Số tiền cho mỗi sản phẩm";
+            this.label14.Text = "Tổng số tiền sản phẩm";
             // 
             // txtTienSanPham
             // 
@@ -545,38 +618,38 @@
             this.guna2CustomGradientPanel2.BorderColor = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel2.BorderRadius = 5;
             this.guna2CustomGradientPanel2.BorderThickness = 1;
-            this.guna2CustomGradientPanel2.Controls.Add(this.chart1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.BieuDoTKLuong);
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(715, 207);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(377, 224);
             this.guna2CustomGradientPanel2.TabIndex = 52;
             // 
-            // chart1
+            // BieuDoTKLuong
             // 
             chartArea7.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea7);
+            this.BieuDoTKLuong.ChartAreas.Add(chartArea7);
             legend7.Name = "Legend1";
-            this.chart1.Legends.Add(legend7);
-            this.chart1.Location = new System.Drawing.Point(3, 5);
-            this.chart1.Name = "chart1";
+            this.BieuDoTKLuong.Legends.Add(legend7);
+            this.BieuDoTKLuong.Location = new System.Drawing.Point(3, 5);
+            this.BieuDoTKLuong.Name = "BieuDoTKLuong";
             series7.ChartArea = "ChartArea1";
             series7.Legend = "Legend1";
             series7.Name = "Series1";
-            this.chart1.Series.Add(series7);
-            this.chart1.Size = new System.Drawing.Size(371, 213);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            this.BieuDoTKLuong.Series.Add(series7);
+            this.BieuDoTKLuong.Size = new System.Drawing.Size(371, 213);
+            this.BieuDoTKLuong.TabIndex = 0;
+            this.BieuDoTKLuong.Text = "chart1";
             // 
-            // label8
+            // lblTKTheoNam
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(711, 185);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(209, 19);
-            this.label8.TabIndex = 53;
-            this.label8.Text = "Thống kê lương năm 2024";
+            this.lblTKTheoNam.AutoSize = true;
+            this.lblTKTheoNam.BackColor = System.Drawing.Color.Transparent;
+            this.lblTKTheoNam.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTKTheoNam.Location = new System.Drawing.Point(711, 185);
+            this.lblTKTheoNam.Name = "lblTKTheoNam";
+            this.lblTKTheoNam.Size = new System.Drawing.Size(209, 19);
+            this.lblTKTheoNam.TabIndex = 53;
+            this.lblTKTheoNam.Text = "Thống kê lương năm 2024";
             // 
             // label12
             // 
@@ -631,6 +704,7 @@
             this.txtThang.StartIndex = 9;
             this.txtThang.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtThang.TabIndex = 55;
+            this.txtThang.SelectedIndexChanged += new System.EventHandler(this.txtThang_SelectedIndexChanged);
             // 
             // txtNam
             // 
@@ -657,138 +731,67 @@
             this.txtNam.TabIndex = 54;
             this.txtNam.TextChanged += new System.EventHandler(this.txtNam_TextChanged);
             // 
-            // label17
+            // lblTKThuongKhauTruTheoNam
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(703, 482);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(287, 19);
-            this.label17.TabIndex = 59;
-            this.label17.Text = "Thống kê thưởng, khấu trừ năm 2024";
+            this.lblTKThuongKhauTruTheoNam.AutoSize = true;
+            this.lblTKThuongKhauTruTheoNam.BackColor = System.Drawing.Color.Transparent;
+            this.lblTKThuongKhauTruTheoNam.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTKThuongKhauTruTheoNam.Location = new System.Drawing.Point(703, 482);
+            this.lblTKThuongKhauTruTheoNam.Name = "lblTKThuongKhauTruTheoNam";
+            this.lblTKThuongKhauTruTheoNam.Size = new System.Drawing.Size(287, 19);
+            this.lblTKThuongKhauTruTheoNam.TabIndex = 59;
+            this.lblTKThuongKhauTruTheoNam.Text = "Thống kê thưởng, khấu trừ năm 2024";
             // 
             // guna2CustomGradientPanel3
             // 
             this.guna2CustomGradientPanel3.BorderColor = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel3.BorderRadius = 5;
             this.guna2CustomGradientPanel3.BorderThickness = 1;
-            this.guna2CustomGradientPanel3.Controls.Add(this.chart2);
+            this.guna2CustomGradientPanel3.Controls.Add(this.BieuDoTKT);
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(710, 504);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(377, 224);
             this.guna2CustomGradientPanel3.TabIndex = 58;
             // 
-            // chart2
+            // BieuDoTKT
             // 
             chartArea8.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea8);
+            this.BieuDoTKT.ChartAreas.Add(chartArea8);
             legend8.Name = "Legend1";
-            this.chart2.Legends.Add(legend8);
-            this.chart2.Location = new System.Drawing.Point(3, 5);
-            this.chart2.Name = "chart2";
-            this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            this.BieuDoTKT.Legends.Add(legend8);
+            this.BieuDoTKT.Location = new System.Drawing.Point(3, 5);
+            this.BieuDoTKT.Name = "BieuDoTKT";
+            this.BieuDoTKT.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series8.ChartArea = "ChartArea1";
             series8.Legend = "Legend1";
             series8.Name = "Series1";
-            this.chart2.Series.Add(series8);
-            this.chart2.Size = new System.Drawing.Size(371, 213);
-            this.chart2.TabIndex = 0;
-            this.chart2.Text = "chart2";
+            this.BieuDoTKT.Series.Add(series8);
+            this.BieuDoTKT.Size = new System.Drawing.Size(371, 213);
+            this.BieuDoTKT.TabIndex = 0;
+            this.BieuDoTKT.Text = "chart2";
             // 
-            // guna2ComboBox1
+            // cbTKT
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox1.BorderThickness = 2;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
+            this.cbTKT.BackColor = System.Drawing.Color.Transparent;
+            this.cbTKT.BorderColor = System.Drawing.Color.Silver;
+            this.cbTKT.BorderThickness = 2;
+            this.cbTKT.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbTKT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbTKT.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbTKT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbTKT.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbTKT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbTKT.ItemHeight = 30;
+            this.cbTKT.Items.AddRange(new object[] {
             "Thưởng",
             "Khấu trừ"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(998, 463);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(94, 36);
-            this.guna2ComboBox1.StartIndex = 0;
-            this.guna2ComboBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.guna2ComboBox1.TabIndex = 60;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(343, 201);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(167, 20);
-            this.label3.TabIndex = 74;
-            this.label3.Text = "Số sản phẩm làm được";
-            // 
-            // txtGioLam
-            // 
-            this.txtGioLam.BorderColor = System.Drawing.Color.Silver;
-            this.txtGioLam.BorderThickness = 2;
-            this.txtGioLam.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtGioLam.DefaultText = "30";
-            this.txtGioLam.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtGioLam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtGioLam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtGioLam.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtGioLam.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGioLam.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGioLam.ForeColor = System.Drawing.Color.Black;
-            this.txtGioLam.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGioLam.Location = new System.Drawing.Point(340, 224);
-            this.txtGioLam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtGioLam.Name = "txtGioLam";
-            this.txtGioLam.PasswordChar = '\0';
-            this.txtGioLam.PlaceholderText = "";
-            this.txtGioLam.ReadOnly = true;
-            this.txtGioLam.SelectedText = "";
-            this.txtGioLam.Size = new System.Drawing.Size(284, 36);
-            this.txtGioLam.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtGioLam.TabIndex = 73;
-            // 
-            // txtLuongCoBan
-            // 
-            this.txtLuongCoBan.AutoSize = true;
-            this.txtLuongCoBan.BackColor = System.Drawing.Color.Transparent;
-            this.txtLuongCoBan.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLuongCoBan.Location = new System.Drawing.Point(343, 129);
-            this.txtLuongCoBan.Name = "txtLuongCoBan";
-            this.txtLuongCoBan.Size = new System.Drawing.Size(106, 20);
-            this.txtLuongCoBan.TabIndex = 76;
-            this.txtLuongCoBan.Text = "Lương cơ bản";
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.Silver;
-            this.guna2TextBox1.BorderThickness = 2;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "30000 VND";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(340, 152);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.ReadOnly = true;
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(284, 36);
-            this.guna2TextBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.guna2TextBox1.TabIndex = 75;
+            this.cbTKT.Location = new System.Drawing.Point(998, 463);
+            this.cbTKT.Name = "cbTKT";
+            this.cbTKT.Size = new System.Drawing.Size(94, 36);
+            this.cbTKT.StartIndex = 0;
+            this.cbTKT.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.cbTKT.TabIndex = 60;
+            this.cbTKT.SelectedIndexChanged += new System.EventHandler(this.cbTKT_SelectedIndexChanged);
             // 
             // fThongTinLuongKPI
             // 
@@ -796,16 +799,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1108, 753);
-            this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.cbTKT);
+            this.Controls.Add(this.lblTKThuongKhauTruTheoNam);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.txtThang);
             this.Controls.Add(this.txtNam);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblTKTheoNam);
             this.Controls.Add(this.guna2CustomGradientPanel2);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblTieuDe);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fThongTinLuongKPI";
@@ -815,9 +818,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvKT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThuong)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKLuong)).EndInit();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKT)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -825,7 +828,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblTieuDe;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2TextBox txtTenCV;
         private Guna.UI2.WinForms.Guna2TextBox txtTenPB;
@@ -845,23 +848,23 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataVisualization.Charting.Chart BieuDoTKLuong;
+        private System.Windows.Forms.Label lblTKTheoNam;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label16;
         private Guna.UI2.WinForms.Guna2ComboBox txtThang;
         private Guna.UI2.WinForms.Guna2TextBox txtNam;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblTKThuongKhauTruTheoNam;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart BieuDoTKT;
+        private Guna.UI2.WinForms.Guna2ComboBox cbTKT;
         private System.Windows.Forms.Label label19;
         private Guna.UI2.WinForms.Guna2TextBox txtTongKT;
         private System.Windows.Forms.Label label18;
         private Guna.UI2.WinForms.Guna2TextBox txtTongThuong;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox txtGioLam;
-        private System.Windows.Forms.Label txtLuongCoBan;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtSanPhamLamDuoc;
+        private System.Windows.Forms.Label label111;
+        private Guna.UI2.WinForms.Guna2TextBox txtLuongCoBan;
     }
 }

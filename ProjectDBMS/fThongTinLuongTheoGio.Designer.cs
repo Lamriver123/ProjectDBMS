@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.label11 = new System.Windows.Forms.Label();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.lblTieuDe = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.txtGioLam = new Guna.UI2.WinForms.Guna2TextBox();
@@ -68,35 +68,35 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label8 = new System.Windows.Forms.Label();
+            this.BieuDoTKLuong = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.lblTKTheoNam = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtThang = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtNam = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblTKThuongKhauTruTheoNam = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.BieuDoTKT = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.cbTKT = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThuong)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKLuong)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKT)).BeginInit();
             this.SuspendLayout();
             // 
-            // label11
+            // lblTieuDe
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(17, 26);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(230, 19);
-            this.label11.TabIndex = 51;
-            this.label11.Text = "Chi tiết Lương tháng 10/ 2024";
+            this.lblTieuDe.AutoSize = true;
+            this.lblTieuDe.BackColor = System.Drawing.Color.Transparent;
+            this.lblTieuDe.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTieuDe.Location = new System.Drawing.Point(17, 26);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(230, 19);
+            this.lblTieuDe.TabIndex = 51;
+            this.lblTieuDe.Text = "Chi tiết Lương tháng 10/ 2024";
             // 
             // guna2CustomGradientPanel1
             // 
@@ -329,33 +329,33 @@
             // 
             // dgvKT
             // 
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
-            this.dgvKT.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvKT.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvKT.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvKT.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvKT.ColumnHeadersHeight = 20;
             this.dgvKT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvKT.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvKT.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvKT.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvKT.Location = new System.Drawing.Point(51, 523);
             this.dgvKT.Name = "dgvKT";
             this.dgvKT.ReadOnly = true;
             this.dgvKT.RowHeadersVisible = false;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvKT.RowsDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvKT.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvKT.Size = new System.Drawing.Size(573, 116);
             this.dgvKT.TabIndex = 63;
             this.dgvKT.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -393,33 +393,33 @@
             // 
             // dgvThuong
             // 
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            this.dgvThuong.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvThuong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.dgvThuong.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvThuong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvThuong.ColumnHeadersHeight = 20;
             this.dgvThuong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvThuong.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvThuong.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvThuong.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvThuong.Location = new System.Drawing.Point(51, 372);
             this.dgvThuong.Name = "dgvThuong";
             this.dgvThuong.ReadOnly = true;
             this.dgvThuong.RowHeadersVisible = false;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvThuong.RowsDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvThuong.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvThuong.Size = new System.Drawing.Size(573, 116);
             this.dgvThuong.TabIndex = 61;
             this.dgvThuong.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -577,38 +577,38 @@
             this.guna2CustomGradientPanel2.BorderColor = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel2.BorderRadius = 5;
             this.guna2CustomGradientPanel2.BorderThickness = 1;
-            this.guna2CustomGradientPanel2.Controls.Add(this.chart1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.BieuDoTKLuong);
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(715, 207);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(377, 224);
             this.guna2CustomGradientPanel2.TabIndex = 52;
             // 
-            // chart1
+            // BieuDoTKLuong
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chart1.Legends.Add(legend5);
-            this.chart1.Location = new System.Drawing.Point(3, 5);
-            this.chart1.Name = "chart1";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chart1.Series.Add(series5);
-            this.chart1.Size = new System.Drawing.Size(371, 213);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            chartArea1.Name = "ChartArea1";
+            this.BieuDoTKLuong.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.BieuDoTKLuong.Legends.Add(legend1);
+            this.BieuDoTKLuong.Location = new System.Drawing.Point(3, 5);
+            this.BieuDoTKLuong.Name = "BieuDoTKLuong";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.BieuDoTKLuong.Series.Add(series1);
+            this.BieuDoTKLuong.Size = new System.Drawing.Size(371, 213);
+            this.BieuDoTKLuong.TabIndex = 0;
+            this.BieuDoTKLuong.Text = "chart1";
             // 
-            // label8
+            // lblTKTheoNam
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(710, 185);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(209, 19);
-            this.label8.TabIndex = 53;
-            this.label8.Text = "Thống kê lương năm 2024";
+            this.lblTKTheoNam.AutoSize = true;
+            this.lblTKTheoNam.BackColor = System.Drawing.Color.Transparent;
+            this.lblTKTheoNam.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTKTheoNam.Location = new System.Drawing.Point(710, 185);
+            this.lblTKTheoNam.Name = "lblTKTheoNam";
+            this.lblTKTheoNam.Size = new System.Drawing.Size(209, 19);
+            this.lblTKTheoNam.TabIndex = 53;
+            this.lblTKTheoNam.Text = "Thống kê lương năm 2024";
             // 
             // label12
             // 
@@ -663,6 +663,7 @@
             this.txtThang.StartIndex = 9;
             this.txtThang.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtThang.TabIndex = 55;
+            this.txtThang.SelectedIndexChanged += new System.EventHandler(this.txtThang_SelectedIndexChanged);
             // 
             // txtNam
             // 
@@ -689,66 +690,67 @@
             this.txtNam.TabIndex = 54;
             this.txtNam.TextChanged += new System.EventHandler(this.txtNam_TextChanged);
             // 
-            // label17
+            // lblTKThuongKhauTruTheoNam
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(705, 482);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(287, 19);
-            this.label17.TabIndex = 59;
-            this.label17.Text = "Thống kê thưởng, khấu trừ năm 2024";
+            this.lblTKThuongKhauTruTheoNam.AutoSize = true;
+            this.lblTKThuongKhauTruTheoNam.BackColor = System.Drawing.Color.Transparent;
+            this.lblTKThuongKhauTruTheoNam.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTKThuongKhauTruTheoNam.Location = new System.Drawing.Point(705, 482);
+            this.lblTKThuongKhauTruTheoNam.Name = "lblTKThuongKhauTruTheoNam";
+            this.lblTKThuongKhauTruTheoNam.Size = new System.Drawing.Size(287, 19);
+            this.lblTKThuongKhauTruTheoNam.TabIndex = 59;
+            this.lblTKThuongKhauTruTheoNam.Text = "Thống kê thưởng, khấu trừ năm 2024";
             // 
             // guna2CustomGradientPanel3
             // 
             this.guna2CustomGradientPanel3.BorderColor = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel3.BorderRadius = 5;
             this.guna2CustomGradientPanel3.BorderThickness = 1;
-            this.guna2CustomGradientPanel3.Controls.Add(this.chart2);
+            this.guna2CustomGradientPanel3.Controls.Add(this.BieuDoTKT);
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(710, 504);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(377, 224);
             this.guna2CustomGradientPanel3.TabIndex = 58;
             // 
-            // chart2
+            // BieuDoTKT
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.chart2.Legends.Add(legend6);
-            this.chart2.Location = new System.Drawing.Point(3, 5);
-            this.chart2.Name = "chart2";
-            this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.Name = "Series1";
-            this.chart2.Series.Add(series6);
-            this.chart2.Size = new System.Drawing.Size(371, 213);
-            this.chart2.TabIndex = 0;
-            this.chart2.Text = "chart2";
+            chartArea2.Name = "ChartArea1";
+            this.BieuDoTKT.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.BieuDoTKT.Legends.Add(legend2);
+            this.BieuDoTKT.Location = new System.Drawing.Point(3, 5);
+            this.BieuDoTKT.Name = "BieuDoTKT";
+            this.BieuDoTKT.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.BieuDoTKT.Series.Add(series2);
+            this.BieuDoTKT.Size = new System.Drawing.Size(371, 213);
+            this.BieuDoTKT.TabIndex = 0;
+            this.BieuDoTKT.Text = "chart2";
             // 
-            // guna2ComboBox1
+            // cbTKT
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox1.BorderThickness = 2;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
+            this.cbTKT.BackColor = System.Drawing.Color.Transparent;
+            this.cbTKT.BorderColor = System.Drawing.Color.Silver;
+            this.cbTKT.BorderThickness = 2;
+            this.cbTKT.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbTKT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbTKT.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbTKT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbTKT.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbTKT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbTKT.ItemHeight = 30;
+            this.cbTKT.Items.AddRange(new object[] {
             "Thưởng",
             "Khấu trừ"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(999, 466);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(92, 36);
-            this.guna2ComboBox1.StartIndex = 0;
-            this.guna2ComboBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.guna2ComboBox1.TabIndex = 60;
+            this.cbTKT.Location = new System.Drawing.Point(999, 466);
+            this.cbTKT.Name = "cbTKT";
+            this.cbTKT.Size = new System.Drawing.Size(92, 36);
+            this.cbTKT.StartIndex = 0;
+            this.cbTKT.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.cbTKT.TabIndex = 60;
+            this.cbTKT.SelectedIndexChanged += new System.EventHandler(this.cbTKT_SelectedIndexChanged);
             // 
             // fThongTinLuongTheoGio
             // 
@@ -756,16 +758,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1108, 753);
-            this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.cbTKT);
+            this.Controls.Add(this.lblTKThuongKhauTruTheoNam);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.txtThang);
             this.Controls.Add(this.txtNam);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblTKTheoNam);
             this.Controls.Add(this.guna2CustomGradientPanel2);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblTieuDe);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fThongTinLuongTheoGio";
@@ -775,9 +777,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvKT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThuong)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKLuong)).EndInit();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BieuDoTKT)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -785,7 +787,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblTieuDe;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2TextBox txtTenCV;
         private Guna.UI2.WinForms.Guna2TextBox txtTenPB;
@@ -805,16 +807,16 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataVisualization.Charting.Chart BieuDoTKLuong;
+        private System.Windows.Forms.Label lblTKTheoNam;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label16;
         private Guna.UI2.WinForms.Guna2ComboBox txtThang;
         private Guna.UI2.WinForms.Guna2TextBox txtNam;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblTKThuongKhauTruTheoNam;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart BieuDoTKT;
+        private Guna.UI2.WinForms.Guna2ComboBox cbTKT;
         private System.Windows.Forms.Label label19;
         private Guna.UI2.WinForms.Guna2TextBox txtTongKT;
         private System.Windows.Forms.Label label18;

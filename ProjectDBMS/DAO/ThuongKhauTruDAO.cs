@@ -235,13 +235,14 @@ namespace ProjectDBMS.DAO
         }
 
         //Xem thuong khau tru theo maNV
-        public static DataTable XemThuongKhauTruTheoMaNV(int maNV)
+        public static DataTable XemThuongKhauTruTheoMaNV(int maNV,DateTime now)
         {
             using (SqlConnection connection = ConnectDB.GetConnection())
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("Select * from fn_XemThuongVaKhauTru_NV(@MaNV)", connection);
+                SqlCommand command = new SqlCommand("Select * from fn_XemThuongVaKhauTru_NV(@MaNV, @ngay)", connection);
                 command.Parameters.AddWithValue("@MaNV", maNV);
+                command.Parameters.AddWithValue("@ngay", now);
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);

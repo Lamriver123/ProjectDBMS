@@ -38,7 +38,7 @@ namespace ProjectDBMS
             txtTongKT.Text = dr["TongKT"].ToString();
             lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
             lblTitle.Text = "Chi tiết Lương tháng " + ngay.Month + " - " + ngay.Year;
-            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(int.Parse(lblMaNV.Text));
+            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(int.Parse(lblMaNV.Text),DateTime.Now);
             DataTable dtThuong = dt.Clone();
             DataTable dtKhauTru = dt.Clone();
 

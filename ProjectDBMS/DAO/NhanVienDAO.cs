@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ProjectDBMS.Model;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ProjectDBMS.DAO
 {
@@ -336,6 +337,7 @@ namespace ProjectDBMS.DAO
             }
         }
 
+
         //Danh sach top nhan vien lam nhieu gio nhat
         public static DataTable DanhSachTopNhanVienLamNhieuGioNhat(DateTime ngay)
 
@@ -365,6 +367,7 @@ namespace ProjectDBMS.DAO
             }
         }
 
+        //Danh sach top nhan vien tien bo
         public static DataTable DanhSachTopNhanVienTienBo(DateTime ngay)
 
         {
@@ -448,6 +451,69 @@ namespace ProjectDBMS.DAO
                 connection.Close();
 
                 return dt;
+            }
+        }
+        public static DataRow TinhTongGioLamTheoMaNV(int maNV, DateTime ngay)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("Select * from fn_TinhTongGioLamTheoMaNV(@maNV, @ngay)", connection);
+                command.Parameters.AddWithValue("@maNV", maNV);
+                command.Parameters.AddWithValue("@ngay", ngay);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt.Rows[0];
+
+            }
+        }
+        public static DataRow LaySoLuongSPVaTienSP(int maNV, DateTime ngay)
+
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+
+            {
+
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("Select * from fn_TinhTongSPVaTienSP(@maNV, @ngay)", connection);
+                command.Parameters.AddWithValue("@maNV", maNV);
+                command.Parameters.AddWithValue("@ngay", ngay);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                DataTable dt = new DataTable();
+
+                adapter.Fill(dt);
+
+                connection.Close();
+
+                return dt.Rows[0];
+
+            }
+            
+        }
+
+        public static string LayLoaiChucVu(int maNV)
+        {
+            using (SqlConnection connection = ConnectDB.GetConnection())
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("select LoaiCV from ChucVu where MaCV = (select MaCV from NhanVien where MaNV = @MaNV)", connection);
+                command.Parameters.AddWithValue("@MaNV", maNV);
+                string tenCV = command.ExecuteScalar().ToString();
+                connection.Close();
+                return tenCV;
             }
         }
     }

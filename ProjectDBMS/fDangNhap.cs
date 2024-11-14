@@ -27,11 +27,13 @@ namespace ProjectDBMS
             {
                 if (role == 0)
                 {
+                   // role = 0;
                     Form form = new fQuanLy();
                     form.ShowDialog();
                 }
                 else
                 {
+                  //  role = 1;
                     Form form = new fNhanVien();
                     form.ShowDialog();
                 }

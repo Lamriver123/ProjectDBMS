@@ -37,7 +37,7 @@ namespace ProjectDBMS
             lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
             MaNV = int.Parse(dr["MaNV"].ToString());
 
-            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(MaNV);
+            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(MaNV,DateTime.Now);
             DataTable dtThuong = dt.Clone();
             DataTable dtKhauTru = dt.Clone();
 
@@ -151,6 +151,26 @@ namespace ProjectDBMS
             txtTongThuong.Text = dr["TongThuong"].ToString();
             txtTongKT.Text = dr["TongKT"].ToString();
             lblLuongThucNhan.Text = dr["LuongThucNhan"].ToString();
+            lblTieuDe.Text = " Chi tiết Lương tháng " + txtThang.Text + "/ " + txtNam.Text;
+
+            DataTable dt = ThuongKhauTruDAO.XemThuongKhauTruTheoMaNV(MaNV, ngay);
+            DataTable dtThuong = dt.Clone();
+            DataTable dtKhauTru = dt.Clone();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                if (row["PhanLoai"].ToString() == "Thưởng")
+                {
+                    dtThuong.ImportRow(row);
+                }
+                else if (row["PhanLoai"].ToString() == "Khấu trừ")
+                {
+                    dtKhauTru.ImportRow(row);
+                }
+            }
+
+            dgvThuong.DataSource = dtThuong;
+            dgvKT.DataSource = dtKhauTru;
         }
 
         private void cbTKT_SelectedIndexChanged(object sender, EventArgs e)
