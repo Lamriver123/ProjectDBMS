@@ -61,6 +61,7 @@ namespace ProjectDBMS
 
         private void fNhanVien_Load(object sender, EventArgs e)
         {
+            fDangNhap.role = 0;
             btnThongTinCaNhan_Click(sender, e);
         }
     }

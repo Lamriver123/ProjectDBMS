@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\tesst\\projectdbms\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\tesst\\projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\tesst\\projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\tesst\\projectdbms\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,39 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "fDangNhap.cs",
-              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs",
-              "RelativeDocumentMoniker": "ProjectDBMS\\fDangNhap.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs",
-              "RelativeToolTip": "ProjectDBMS\\fDangNhap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAQAAAA",
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\DAO\\AccountDAO.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "ProjectDBMS\\DAO\\AccountDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:16:31.571Z",
+              "WhenOpened": "2024-11-14T06:47:49.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "fDangNhap.cs [Design]",
+              "Title": "fDangNhap.cs",
               "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs",
               "RelativeDocumentMoniker": "ProjectDBMS\\fDangNhap.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs [Design]",
-              "RelativeToolTip": "ProjectDBMS\\fDangNhap.cs [Design]",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs",
+              "RelativeToolTip": "ProjectDBMS\\fDangNhap.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:16:29.646Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConnectDB.cs",
-              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\ConnectDB.cs",
-              "RelativeDocumentMoniker": "ProjectDBMS\\ConnectDB.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\ConnectDB.cs",
-              "RelativeToolTip": "ProjectDBMS\\ConnectDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:40:28.076Z",
+              "WhenOpened": "2024-11-12T05:16:31.571Z",
               "EditorCaption": ""
             }
           ]

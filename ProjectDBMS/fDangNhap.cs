@@ -23,19 +23,22 @@ namespace ProjectDBMS
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             this.Hide();
-            if(txtUserName.Text == "ad")
+            if(AccountDAO.Login(txtUserName.Text, txtPassword.Text))
             {
-                role = 0;
-                Form form = new fQuanLy();
-                form.ShowDialog();
+                if (role == 0)
+                {
+                    Form form = new fQuanLy();
+                    form.ShowDialog();
+                }
+                else
+                {
+                    Form form = new fNhanVien();
+                    form.ShowDialog();
+                }
             }
-            else
-            {
-                role = 1;
-                Form form = new fNhanVien();
-                MaNV = int.Parse(txtUserName.Text);
-                form.ShowDialog();
-            }
+            else { 
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
+            }   
             this.Show();
         }
 

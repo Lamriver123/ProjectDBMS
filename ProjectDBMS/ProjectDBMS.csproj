@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectDB.cs" />
+    <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\ChucVuDAO.cs" />
     <Compile Include="DAO\LuongDAO.cs" />
     <Compile Include="DAO\NhanVienDAO.cs" />
