@@ -108,16 +108,17 @@
             this.cbChucVu.BorderRadius = 10;
             this.cbChucVu.BorderThickness = 0;
             this.cbChucVu.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbChucVu.DropDownHeight = 300;
             this.cbChucVu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbChucVu.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbChucVu.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbChucVu.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbChucVu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbChucVu.IntegralHeight = false;
             this.cbChucVu.ItemHeight = 30;
             this.cbChucVu.Location = new System.Drawing.Point(270, 9);
             this.cbChucVu.Name = "cbChucVu";
             this.cbChucVu.Size = new System.Drawing.Size(190, 36);
-            this.cbChucVu.StartIndex = 0;
             this.cbChucVu.TabIndex = 11;
             this.cbChucVu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cbChucVu.SelectedIndexChanged += new System.EventHandler(this.cbChucVu_SelectedIndexChanged);
@@ -183,7 +184,6 @@
             this.cbPhongBan.Location = new System.Drawing.Point(149, 9);
             this.cbPhongBan.Name = "cbPhongBan";
             this.cbPhongBan.Size = new System.Drawing.Size(123, 36);
-            this.cbPhongBan.StartIndex = 0;
             this.cbPhongBan.TabIndex = 8;
             this.cbPhongBan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cbPhongBan.SelectedIndexChanged += new System.EventHandler(this.cbPhongBan_SelectedIndexChanged);

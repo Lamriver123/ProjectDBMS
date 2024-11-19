@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\",
+  "WorkspaceRootPath": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\tesst\\projectdbms\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\projectdbms\\fchitietluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fchitietluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\projectdbms\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\final 1\\project\\projectdbms\\dao\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\dao\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\projectdbms\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\projectdbms\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|f:\\dai hoc\\nam3\\dbms\\cuoi ky\\tesst\\projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\projectdbms\\fchitietluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50600D3-206E-4CFA-9BD2-5DC0B121CD89}|ProjectDBMS\\ProjectDBMS.csproj|solutionrelative:projectdbms\\fchitietluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,28 +47,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountDAO.cs",
-              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\DAO\\AccountDAO.cs",
-              "RelativeDocumentMoniker": "ProjectDBMS\\DAO\\AccountDAO.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\DAO\\AccountDAO.cs",
-              "RelativeToolTip": "ProjectDBMS\\DAO\\AccountDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Title": "fChiTietLuong.cs [Design]",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fChiTietLuong.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fChiTietLuong.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fChiTietLuong.cs [Design]",
+              "RelativeToolTip": "ProjectDBMS\\fChiTietLuong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:47:49.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T00:19:05.15Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "fNhanVien.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fNhanVien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fNhanVien.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fNhanVien.cs",
+              "RelativeToolTip": "ProjectDBMS\\fNhanVien.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAMwDcAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:21:38.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fChiTietLuong.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fChiTietLuong.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\fChiTietLuong.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fChiTietLuong.cs",
+              "RelativeToolTip": "ProjectDBMS\\fChiTietLuong.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAMwB4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:18:54.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVienDAO.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\DAO\\NhanVienDAO.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\DAO\\NhanVienDAO.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\DAO\\NhanVienDAO.cs",
+              "RelativeToolTip": "ProjectDBMS\\DAO\\NhanVienDAO.cs",
+              "ViewState": "AQIAACgBAAAAAAAAAAAgwDwBAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:16:04.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectDB.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\ConnectDB.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\ConnectDB.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\ConnectDB.cs",
+              "RelativeToolTip": "ProjectDBMS\\ConnectDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:03:37.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "ProjectDBMS\\DAO\\AccountDAO.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "ProjectDBMS\\DAO\\AccountDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:47:49.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "fDangNhap.cs",
-              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs",
+              "DocumentMoniker": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fDangNhap.cs",
               "RelativeDocumentMoniker": "ProjectDBMS\\fDangNhap.cs",
-              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\tesst\\ProjectDBMS\\fDangNhap.cs",
+              "ToolTip": "F:\\Dai Hoc\\Nam3\\DBMS\\Cuoi ky\\Final 1\\project\\ProjectDBMS\\fDangNhap.cs",
               "RelativeToolTip": "ProjectDBMS\\fDangNhap.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwBEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:16:31.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:16:31.571Z"
             }
           ]
         }

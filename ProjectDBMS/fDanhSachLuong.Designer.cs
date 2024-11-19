@@ -54,16 +54,17 @@
             this.cbCV.BorderRadius = 10;
             this.cbCV.BorderThickness = 0;
             this.cbCV.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbCV.DropDownHeight = 300;
             this.cbCV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCV.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbCV.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbCV.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbCV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbCV.IntegralHeight = false;
             this.cbCV.ItemHeight = 30;
             this.cbCV.Location = new System.Drawing.Point(310, 16);
             this.cbCV.Name = "cbCV";
             this.cbCV.Size = new System.Drawing.Size(190, 36);
-            this.cbCV.StartIndex = 0;
             this.cbCV.TabIndex = 16;
             this.cbCV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cbCV.SelectedIndexChanged += new System.EventHandler(this.cbCV_SelectedIndexChanged);
@@ -118,7 +119,6 @@
             this.cbPB.Location = new System.Drawing.Point(169, 16);
             this.cbPB.Name = "cbPB";
             this.cbPB.Size = new System.Drawing.Size(123, 36);
-            this.cbPB.StartIndex = 0;
             this.cbPB.TabIndex = 13;
             this.cbPB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cbPB.SelectedIndexChanged += new System.EventHandler(this.cbPB_SelectedIndexChanged);

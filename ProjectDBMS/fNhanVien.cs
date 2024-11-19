@@ -45,6 +45,7 @@ namespace ProjectDBMS
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
+            fDangNhap.role = 0;
             this.Close();
         }
 
@@ -73,7 +74,7 @@ namespace ProjectDBMS
 
         private void fNhanVien_Load(object sender, EventArgs e)
         {
-            fDangNhap.role = 0;
+            
             btnThongTinCaNhan_Click(sender, e);
         }
     }
